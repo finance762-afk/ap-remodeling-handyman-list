@@ -676,7 +676,8 @@
     "colors": {
       "extracted_from_logo": true
     },
-    "logo_analysis": {}
+    "logo_analysis": {},
+    "archetype": "warm-human"
   },
   "domain": "ap-remodeling-handyman-list",
   "phases": [
