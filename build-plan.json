@@ -810,7 +810,7 @@
     "Niles, MI",
     "Edwardsburg, MI"
   ],
-  "address_public": true,
+  "address_public": false,
   "business_hours": "Mon–Sun 9:00 AM–6:00 PM",
   "image_curation": null,
   "research_brief": {
