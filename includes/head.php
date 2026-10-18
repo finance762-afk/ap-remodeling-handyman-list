@@ -72,12 +72,14 @@ $hdGaLive      = $hdGa !== '' && preg_match('/^G-[A-Z0-9]{6,}$/', $hdGa) && stri
 <?php endif; ?>
 
 <!-- Structured data: LocalBusiness + WebSite (NAP matches the GBP listing) -->
-<?php echo jsonLd(buildLocalBusinessSchema($hdOgImage)), "\n"; ?>
+<script type="application/ld+json"><?php echo jsonLdEncode(buildLocalBusinessSchema($hdOgImage)); ?></script>
 <?php
+$hdBlocks = [];
 if (!empty($schemaMarkup)) {
     $hdBlocks = is_string($schemaMarkup) ? [$schemaMarkup] : (isset($schemaMarkup['@type']) || isset($schemaMarkup['@graph']) ? [$schemaMarkup] : (array) $schemaMarkup);
-    foreach ($hdBlocks as $hdBlock) echo jsonLd($hdBlock), "\n";
 }
-?>
+foreach ($hdBlocks as $hdBlock): ?>
+<script type="application/ld+json"><?php echo jsonLdEncode($hdBlock); ?></script>
+<?php endforeach; ?>
 </head>
 <body class="page-<?php echo h($hdPageType); ?>">

@@ -35,7 +35,7 @@ $navSub = function (array $navEntry): string {
 
       <a class="site-logo navbar-logo" href="/" aria-label="<?php echo h($siteName); ?> — home">
 <?php if ($navLogo): ?>
-        <img src="<?php echo h($navLogo['src']); ?>" width="<?php echo (int) $navLogo['width']; ?>" height="<?php echo (int) $navLogo['height']; ?>" alt="<?php echo h($siteName); ?>"<?php echo $navLogo['class'] ? ' class="' . h($navLogo['class']) . '"' : ''; ?>>
+        <img src="<?php echo h($navLogo['src']); ?>" width="<?php echo (int) $navLogo['width']; ?>" height="<?php echo (int) $navLogo['height']; ?>" alt="<?php echo h($siteName); ?>" loading="eager"<?php echo $navLogo['class'] ? ' class="' . h($navLogo['class']) . '"' : ''; ?>>
 <?php else: ?>
         <span class="logo-mark" aria-hidden="true"><?php echo h($navMarkText); ?></span>
         <span class="logo-text"><span class="brand-name"><?php echo h($navNameTop); ?></span><span class="brand-sub"><?php echo h($navNameSub); ?></span></span>

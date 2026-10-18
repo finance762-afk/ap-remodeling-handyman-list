@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "useful_because": "The homepage is the only page that lays out every AP Remodeling Handyman List trade side by side (the full handyman list from drywall and TV mounting to deck and fence repair, bathroom and kitchen remodeling, flooring, siding and windows, roofing) with the company's own job photos captioned by what they show: a walk-in shower in large-format marble-look tile with recessed niches, a hex mosaic bathroom floor, drywall patched around new tile, a sloped-ceiling bedroom painted with new baseboard over bare subfloor, and an arched window return finished for paint. It names the owner (Charles Poe), the 32 years in business, the seven-day 9-to-6 hours, the weekday estimate-visit windows and all eleven Indiana and Michigan towns served, and it explains why a failed caulk line or loose tile is worth fixing before water reaches the drywall and subfloor.",
+      "needs_confirmation": [
+        {
+          "fact": "Product warranties honored on installed materials",
+          "question": "Your intake mentions 'all warranties on product'. Do you pass along the manufacturer warranties on what you install, and do you also give your own warranty on labor? If so, for how long?",
+          "where": "about section, second paragraph"
+        },
+        {
+          "fact": "How fast a web form or call gets a reply",
+          "question": "When someone sends the website form, who calls them back and roughly how soon (same day, next business day)? The site currently says only 'we'll be in touch'.",
+          "where": "hero form tagline, estimate dialog, estimate section 'What happens next'"
+        },
+        {
+          "fact": "Who comes out for the estimate and whether the price is given in writing",
+          "question": "Does Charles do the estimate visits himself, and is the price given in writing before work starts?",
+          "where": "estimate section 'What happens next', FAQ 'How is a job priced?'"
+        },
+        {
+          "fact": "The four-step remodel sequence (repair behind the finish, prep, install, finish)",
+          "question": "The 'How a remodel moves along' steps were written from your job photos. Is that the order you normally work in, and do you do a final walkthrough or cleanup we should mention?",
+          "where": "about section process steps"
+        },
+        {
+          "fact": "Licensing and insurance",
+          "question": "Is AP Remodeling Handyman List insured (general liability / workers' comp), and do you hold any Indiana or Michigan contractor registrations? Intake left this blank, so the site does not say 'licensed' or 'insured' anywhere.",
+          "where": "hero chips, FAQ (question left out until confirmed)"
+        },
+        {
+          "fact": "Estimate-tool price range for handyman work",
+          "question": "The onboarding price range for handyman work is $1,500 to $225,000 per job. Is that correct, or should it be different (for example $150 to $2,250)? The homepage does not print the range; it only links to it once the services page exists.",
+          "where": "services section intro (link to /services/#estimate-tool)"
+        },
+        {
+          "fact": "Smallest job taken on",
+          "question": "Is there a minimum job size or trip charge for small handyman work like a TV mount or a single fixture swap?",
+          "where": "FAQ (not answered on the page)"
+        },
+        {
+          "fact": "Text messages",
+          "question": "Onboarding says you do not accept texts, but your phone number was also given as a 'text us' number. Should the site show a 'Text us' button, or keep calls and the form only?",
+          "where": "footer / sticky mobile bar"
+        },
+        {
+          "fact": "FAQ questions come from the research brief and intake, not from recorded customer questions",
+          "question": "What are the questions customers ask you most often on the phone? We'll swap them into the homepage FAQ.",
+          "where": "FAQ section"
+        },
+        {
+          "fact": "Photos of roofing, siding, kitchen and finished flooring work",
+          "question": "Can you send a few photos of roofing, siding, window, kitchen and finished-floor jobs? Those service cards currently use bathroom and interior photos.",
+          "where": "services grid, recent work gallery"
+        },
+        {
+          "fact": "Logo",
+          "question": "Do you have a logo file (PNG or SVG)? The site uses a text 'AP' mark in the header and footer until one is supplied.",
+          "where": "header and footer"
+        }
+      ]
+    }
+  ],
+  "consolidate": []
+}

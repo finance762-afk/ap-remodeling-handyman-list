@@ -330,11 +330,17 @@ if (!function_exists('generateBreadcrumbSchema')) {
     }
 }
 
+if (!function_exists('jsonLdEncode')) {
+    /** JSON-LD body for an array or a ready JSON string (safe inside <script>). */
+    function jsonLdEncode($data): string {
+        return is_string($data) ? $data : (string) json_encode($data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP);
+    }
+}
+
 if (!function_exists('jsonLd')) {
     /** <script type="application/ld+json"> for an array or a ready JSON string. */
     function jsonLd($data): string {
-        $fnJson = is_string($data) ? $data : json_encode($data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP);
-        return '<script type="application/ld+json">' . $fnJson . '</script>';
+        return '<script type="application/ld+json">' . jsonLdEncode($data) . '</script>';
     }
 }
 

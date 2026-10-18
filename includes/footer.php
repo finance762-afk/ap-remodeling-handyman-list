@@ -158,6 +158,73 @@ $footBook     = !empty($bookingWindows['authorized']) && pageBuilt('/book/');
 <?php endif; ?>
 </div>
 
+<!-- Estimate dialog: every [data-open-estimate] opens it (main.js). Full contact form, ids prefixed dlg-. -->
+<dialog class="estimate-dialog" id="estimate-dialog" aria-labelledby="estimate-dialog-title">
+  <div class="dialog-head">
+    <div>
+      <h3 id="estimate-dialog-title">Get a free estimate</h3>
+      <p class="footnote">No obligation. Tell us about the job and we'll be in touch.</p>
+    </div>
+    <button type="button" class="dialog-close" aria-label="Close" data-close-estimate><?php echo icon('x', 20); ?></button>
+  </div>
+  <div class="dialog-body">
+    <form action="<?php echo h($formAction); ?>" method="POST" class="estimate-form">
+      <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="_next" value="<?php echo h($siteUrl); ?>/thank-you">
+      <input type="hidden" name="form_location" value="dialog">
+      <input type="hidden" name="consent_version" value="v2.1">
+      <input type="hidden" name="consent_page" value="<?php echo htmlspecialchars($_SERVER['REQUEST_URI']); ?>">
+      <?php echo p1_attribution_fields('dialog'); ?>
+
+      <div class="form-grid">
+        <div class="field">
+          <label for="dlg-name">Your Name</label>
+          <input id="dlg-name" type="text" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="dlg-phone">Phone</label>
+          <input id="dlg-phone" type="tel" name="phone" autocomplete="tel" required>
+        </div>
+        <div class="field">
+          <label for="dlg-email">Email</label>
+          <input id="dlg-email" type="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="dlg-service">Service Needed</label>
+          <select id="dlg-service" name="service">
+            <option value="">Select a service</option>
+<?php foreach ($services as $footOpt): ?>
+            <option value="<?php echo h($footOpt['name']); ?>"><?php echo h($footOpt['name']); ?></option>
+<?php endforeach; ?>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="dlg-message">Project Details</label>
+          <textarea id="dlg-message" name="message" rows="3" placeholder="What needs fixing or remodeling, and which town is the house in?"></textarea>
+        </div>
+      </div>
+
+      <fieldset class="form-consent-fieldset">
+        <legend class="form-consent-legend">Communication Consent</legend>
+        <label class="form-consent-item">
+          <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox">
+          <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo h($siteName); ?> about my inquiry, services, promotions, and news. I understand I can unsubscribe anytime via the link in any email or by emailing <?php echo h($email); ?>. Message frequency varies.</span>
+        </label>
+        <label class="form-consent-item">
+          <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox">
+          <span class="consent-label"><strong>SMS/Text messages (optional):</strong> I agree to receive text messages from <?php echo h($siteName); ?> at the phone number I provided. Message types may include appointment reminders, service updates, and promotional offers. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe, HELP for help. <strong>Consent is not a condition of purchase.</strong></span>
+        </label>
+        <label class="form-consent-item form-consent-required">
+          <input type="checkbox" name="terms_accepted" value="yes" class="consent-checkbox" required>
+          <span class="consent-label">I have read and agree to the <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms/">Terms of Service</a>. <span class="required-star">*</span></span>
+        </label>
+      </fieldset>
+
+      <button type="submit" class="btn btn-primary btn-block btn-lg">Send my estimate request</button>
+    </form>
+  </div>
+</dialog>
+
 <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie notice">
   <p class="cookie-banner__text">We use cookies to improve your experience and analyze site usage. By continuing, you agree to our use of cookies. <a href="/cookie-policy/">Learn more</a>.</p>
   <button type="button" class="cookie-banner__dismiss" id="cookie-banner-dismiss" aria-label="Dismiss cookie notice">Got it</button>
