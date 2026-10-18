@@ -260,7 +260,7 @@ $proofItems = [
       <div class="hero-text">
         <span class="eyebrow">Elkhart, IN · Northern Indiana &amp; Southwest Michigan</span>
         <h1 class="hero-title">Elkhart handyman repairs and remodels</h1>
-        <p class="hero-answer">Drywall, doors, tile baths, floors and roofs for homes in Elkhart and nearby towns.</p>
+        <p class="hero-answer">AP Remodeling Handyman List does drywall, doors, tile baths, floors and roofs for homes in Elkhart and nearby towns. The company is owned by Charles Poe, has 32 years in business, and prices every job after a free in-person estimate visit.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -285,7 +285,7 @@ $proofItems = [
         <div class="photo-stack__tag"><b>Recent work</b><span>Tiled walk-in shower with recessed niche</span></div>
 
         <aside class="hero-form-card" id="estimate-form">
-          <h2>Request an estimate</h2>
+          <h2>Ready for a free estimate?</h2>
           <p class="hero-form-tagline">No obligation. Tell us what needs doing.</p>
           <form action="<?php echo h($formAction); ?>" method="POST" class="hero-form">
             <input type="hidden" name="_next" value="<?= htmlspecialchars($siteUrl) ?>/thank-you">
@@ -296,6 +296,7 @@ $proofItems = [
             <?php echo p1_attribution_fields('hero'); ?>
             <div class="form-row"><label class="sr-only" for="hero-name">Name</label><input id="hero-name" type="text" name="name" placeholder="Name" autocomplete="name" required></div>
             <div class="form-row"><label class="sr-only" for="hero-phone">Phone</label><input id="hero-phone" type="tel" name="phone" placeholder="Phone" autocomplete="tel" required></div>
+            <div class="form-row"><label class="sr-only" for="hero-email">Email</label><input id="hero-email" type="email" name="email" placeholder="Email" autocomplete="email" required></div>
             <div class="form-row"><label class="sr-only" for="hero-service">Service</label>
               <select id="hero-service" name="service">
                 <option value="">What do you need?</option>
@@ -337,8 +338,8 @@ $proofItems = [
     <div class="gallery-head reveal-left">
       <div class="section-head">
         <span class="eyebrow">Recent Work</span>
-        <h2>Tile, drywall and paint from recent <span class="text-accent">AP Remodeling</span> jobs</h2>
-        <p>Shower tile, drywall patching, paint and floor prep, photographed on the job.</p>
+        <h2>What do recent <span class="text-accent">AP Remodeling</span> jobs look like in tile, drywall and paint?</h2>
+        <p class="answer-block">Recent AP Remodeling Handyman List jobs include shower tile, a mosaic floor, patched drywall and a painted bedroom. The photos below were taken on the job: recessed niches, a hexagon mosaic bathroom floor, an arched window return ready for paint and a room taken down to subfloor.</p>
       </div>
       <p class="gallery-hint"><?php echo icon('arrow-right', 18); ?>Scroll for more</p>
     </div>
@@ -469,7 +470,7 @@ $proofItems = [
   <div class="container">
     <div class="reveal-up">
       <span class="eyebrow">Small leaks, big repairs</span>
-      <h2>Failed caulk and loose tile let water into the wall</h2>
+      <h2>Can failed caulk and loose tile let water into the wall?</h2>
       <p>A gap around a tub or a cracked grout line looks minor, but water that gets behind it soaks drywall and subfloor. Re-caulking or re-setting a few tiles now costs far less than tearing out a soft wall or floor later.</p>
     </div>
     <div class="actions reveal-scale">
@@ -516,7 +517,8 @@ if ($homeReviews !== ''): ?>
 
       <div class="card reveal-left">
         <span class="eyebrow">Estimate Request</span>
-        <h2>Tell us about the job</h2>
+        <h2>What should I tell AP Remodeling about the job?</h2>
+        <p class="answer-block">Tell AP Remodeling Handyman List what needs fixing or remodeling, the town the house is in, and how to reach you. A phone number and email let the company follow up, and the project details help the estimate visit start with the right questions.</p>
         <form action="<?php echo h($formAction); ?>" method="POST" class="estimate-form">
           <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
           <input type="hidden" name="_next" value="<?php echo h($siteUrl); ?>/thank-you">

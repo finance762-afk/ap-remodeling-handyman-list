@@ -60,6 +60,251 @@
           "where": "header and footer"
         }
       ]
+    },
+    {
+      "path": "/services/flooring-installation/",
+      "useful_because": "The only page that explains a floor job the way AP Remodeling does it: room taken down to subfloor, small hexagon mosaic tile, baseboard and paint finished by the same company, with photos of a subfloor-ready room and a tiled bathroom floor.",
+      "needs_confirmation": [
+        {
+          "fact": "Job process order",
+          "question": "Is this the order you usually work in (estimate, prep, install, finish)? Do you do a final walkthrough or cleanup we should mention?",
+          "where": "process section"
+        },
+        {
+          "fact": "Estimate and pricing wording",
+          "question": "Is the estimate always free, and is the price given in writing before work is scheduled? Do you do the estimate visits yourself?",
+          "where": "FAQ \"Is a ... estimate free?\", process step 1"
+        },
+        {
+          "fact": "Floor types installed",
+          "question": "Which flooring materials do you install (tile, vinyl plank, laminate, hardwood, carpet)? The page names only tile because that is all the photos show.",
+          "where": "what flooring covers"
+        },
+        {
+          "fact": "Typical job length",
+          "question": "About how long does a bathroom floor or a bedroom floor take?",
+          "where": "process section (left out)"
+        },
+        {
+          "fact": "Estimate tool pricing for flooring",
+          "question": "Do you have a price range for flooring (per square foot or per room)? The instant-estimate tool is only on the Handyman & Roofing page because that is the only range on file.",
+          "where": "page has no estimate tool"
+        }
+      ]
+    },
+    {
+      "path": "/services/siding-window-replacement/",
+      "useful_because": "Explains the outside-and-inside split of a window job (new unit outside, drywall return, trim, caulk and paint inside) and why Northern Indiana lake-effect snow and freeze-thaw make sealing matter, tied to the one window-return photo on file.",
+      "needs_confirmation": [
+        {
+          "fact": "Job process order",
+          "question": "Is this the order you usually work in (estimate, prep, install, finish)? Do you do a final walkthrough or cleanup we should mention?",
+          "where": "process section"
+        },
+        {
+          "fact": "Estimate and pricing wording",
+          "question": "Is the estimate always free, and is the price given in writing before work is scheduled? Do you do the estimate visits yourself?",
+          "where": "FAQ \"Is a ... estimate free?\", process step 1"
+        },
+        {
+          "fact": "Siding and window products",
+          "question": "Which siding types (vinyl, fiber cement, wood) and which window brands do you install? Any manufacturer warranties or certifications?",
+          "where": "what siding and window replacement covers"
+        },
+        {
+          "fact": "Photos of siding and exterior window work",
+          "question": "Can you send photos of finished siding and exterior window jobs? The only photo on this page is an interior window return, so there is no gallery.",
+          "where": "whole page"
+        },
+        {
+          "fact": "Estimate tool pricing for siding and windows",
+          "question": "Do you have a price range for siding (per square) or windows (each)? No range is on file, so no estimate tool is shown here.",
+          "where": "page has no estimate tool"
+        }
+      ]
+    },
+    {
+      "path": "/services/remodeling-services/",
+      "useful_because": "Shows what a bathroom remodel looks like step by step with the company's own jobs (marble-look large-format tile, recessed niches, pebble shower floor, hexagon mosaic, drywall patched beside tile) and explains why one company doing tile, drywall and paint matters.",
+      "needs_confirmation": [
+        {
+          "fact": "Job process order",
+          "question": "Is this the order you usually work in (estimate, prep, install, finish)? Do you do a final walkthrough or cleanup we should mention?",
+          "where": "process section"
+        },
+        {
+          "fact": "Estimate and pricing wording",
+          "question": "Is the estimate always free, and is the price given in writing before work is scheduled? Do you do the estimate visits yourself?",
+          "where": "FAQ \"Is a ... estimate free?\", process step 1"
+        },
+        {
+          "fact": "Kitchen remodel scope",
+          "question": "What does a typical kitchen job include for you (cabinets, counters, backsplash, flooring, plumbing/electrical handled by whom)? The kitchen section is deliberately general.",
+          "where": "kitchen section"
+        },
+        {
+          "fact": "Kitchen photos",
+          "question": "Can you send photos of finished kitchens? No kitchen photo is on file.",
+          "where": "kitchen section, gallery"
+        },
+        {
+          "fact": "Plumbing and electrical",
+          "question": "Do you do plumbing and electrical work in a remodel, or bring in other trades for it?",
+          "where": "bathroom and kitchen sections (not mentioned)"
+        },
+        {
+          "fact": "Estimate tool pricing for remodels",
+          "question": "Do you have a price range for a bathroom or kitchen remodel? No range is on file, so no estimate tool is shown here.",
+          "where": "page has no estimate tool"
+        }
+      ]
+    },
+    {
+      "path": "/services/additional-services/",
+      "useful_because": "Groups the full handyman list by kind of job (walls and paint, doors and mounting, outdoors and weatherproofing), ties it to two job photos, and gives a roof repair-versus-replace table with Northern Indiana weather context.",
+      "needs_confirmation": [
+        {
+          "fact": "Job process order",
+          "question": "Is this the order you usually work in (estimate, prep, install, finish)? Do you do a final walkthrough or cleanup we should mention?",
+          "where": "process section"
+        },
+        {
+          "fact": "Estimate and pricing wording",
+          "question": "Is the estimate always free, and is the price given in writing before work is scheduled? Do you do the estimate visits yourself?",
+          "where": "FAQ \"Is a ... estimate free?\", process step 1"
+        },
+        {
+          "fact": "Handyman estimate-tool price range",
+          "question": "The onboarding range is $1,500 to $225,000 per job for handyman work. That looks like it may be a typo (for example $150 to $2,250). What are the real low and high figures? The tool on this page prints whatever is on file.",
+          "where": "instant estimate tool"
+        },
+        {
+          "fact": "Roofing details",
+          "question": "What roofing do you do (shingle, metal, flat)? Do you work with insurance claims? Any manufacturer certifications? Photos of roof jobs?",
+          "where": "roofing section"
+        },
+        {
+          "fact": "Minimum job and trip charge",
+          "question": "Is there a minimum job size or trip charge for small handyman work such as a TV mount?",
+          "where": "FAQ (not answered)"
+        },
+        {
+          "fact": "Hourly versus per-job pricing",
+          "question": "Is handyman work charged by the hour or by the job?",
+          "where": "FAQ \"How is handyman work priced?\" (currently says it is settled at the visit)"
+        }
+      ]
+    },
+    {
+      "path": "/services/",
+      "useful_because": "The one page that lays out every AP Remodeling service, maps each specific job (kitchen, roof, TV mounting, deck repair) to the page that covers it, and explains the free estimate visit.",
+      "needs_confirmation": [
+        {
+          "fact": "Estimate tool range",
+          "question": "See the handyman price-range question on the Handyman & Roofing page; the tool here shows the same range.",
+          "where": "instant estimate tool"
+        }
+      ]
+    },
+    {
+      "path": "/about/",
+      "useful_because": "Gives the company facts a customer cannot get elsewhere on the site: owner name, 32 years, eleven towns across two states, seven-day phone hours, weekday estimate windows, and an honest statement of what credentials are and are not listed yet.",
+      "needs_confirmation": [
+        {
+          "fact": "Company story",
+          "question": "How did AP Remodeling Handyman List start, and what is Charles's background? The story is limited to what intake said.",
+          "where": "story section"
+        },
+        {
+          "fact": "Warranties",
+          "question": "Intake mentions \"all warranties on product\". Do you pass along manufacturer warranties, and do you give your own labor warranty? For how long?",
+          "where": "story, second paragraph"
+        },
+        {
+          "fact": "Licensing, insurance and certifications",
+          "question": "Are you insured (liability, workers' comp)? Do you hold any Indiana or Michigan contractor registrations or trade certifications? The page currently says none are listed yet.",
+          "where": "credentials card"
+        },
+        {
+          "fact": "Business entity and state",
+          "question": "Is the company an LLC, corporation or sole proprietorship, and in which state was it formed? Terms of Service name Indiana law and Elkhart County courts as a default.",
+          "where": "Terms of Service, Privacy Policy"
+        }
+      ]
+    },
+    {
+      "path": "/contact/",
+      "useful_because": "Combines a weekday estimate-visit request (day and two-hour window), the full contact form with the three unbundled consents, hours, and a map of the Elkhart area.",
+      "needs_confirmation": [
+        {
+          "fact": "Reply speed",
+          "question": "When someone sends the form or books a window, who calls back and how soon (same day, next business day)?",
+          "where": "form intro (currently only says \"follows up\")"
+        },
+        {
+          "fact": "Public address",
+          "question": "The service-area setting hides the street address. Should the site show a street address or directions button, or stay city-only?",
+          "where": "NAP, map"
+        },
+        {
+          "fact": "Texting",
+          "question": "Onboarding says you do not accept texts, but the booking tool says visits are confirmed \"by text or call\". Do you confirm visits by text?",
+          "where": "booking window copy (component text)"
+        }
+      ]
+    },
+    {
+      "path": "/service-area/",
+      "useful_because": "Lists all eleven towns with the county or river or landmark that places each one, so a visitor can see at a glance whether their town is covered; every local fact was checked against public sources.",
+      "needs_confirmation": [
+        {
+          "fact": "Towns and local jobs",
+          "question": "Which of these towns do you work in most, and are there neighborhoods, lakes or housing types you know well (for example older homes in Mishawaka or lake houses near Warsaw)? We can add verified local detail per town.",
+          "where": "town cards"
+        },
+        {
+          "fact": "Travel limits",
+          "question": "Do you travel farther than these eleven towns, and is there a trip charge for the farther ones (Warsaw, Kendallville, Plymouth)?",
+          "where": "intro and CTA"
+        }
+      ]
+    },
+    {
+      "path": "/privacy-policy/",
+      "useful_because": "Spells out exactly what this site collects (form fields, consent record, 30-day visit cookie, analytics) and who receives it, in plain language for Elkhart-area visitors.",
+      "needs_confirmation": [
+        {
+          "fact": "Analytics and data processors",
+          "question": "Confirm Google Analytics will be switched on at launch and that no other tools (call tracking, chat) are added.",
+          "where": "what we collect, who receives it"
+        }
+      ]
+    },
+    {
+      "path": "/terms/",
+      "useful_because": "States the estimate, warranty, payment, cancellation and governing-law terms customers agree to when they hire AP Remodeling or use the site.",
+      "needs_confirmation": [
+        {
+          "fact": "Entity and governing law",
+          "question": "What is the legal entity type and state of formation? The terms default to Indiana law and Elkhart County courts.",
+          "where": "governing law"
+        },
+        {
+          "fact": "Payment and cancellation terms",
+          "question": "Do you take a deposit, progress payments, financing? What is the cancellation policy? The terms currently defer to the written agreement for each job.",
+          "where": "payment and cancellation"
+        }
+      ]
+    },
+    {
+      "path": "/cookie-policy/",
+      "useful_because": "Names the specific cookies on this site (first-party visit cookie p1_ft for 30 days, Google Analytics, Google Maps embed) instead of a generic cookie notice.",
+      "needs_confirmation": []
+    },
+    {
+      "path": "/accessibility/",
+      "useful_because": "States the WCAG 2.1 AA target, the features actually built into the site, and the known third-party map limitation, with phone and email as alternatives.",
+      "needs_confirmation": []
     }
   ],
   "consolidate": []

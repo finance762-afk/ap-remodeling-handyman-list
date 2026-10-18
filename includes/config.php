@@ -29,7 +29,7 @@ $address = [
     'state'  => 'IN',
     'zip'    => '',
 ];
-$addressPublic  = true;
+$addressPublic  = false;                  // build-plan address_public:false (service-area business)
 $geo            = ['lat' => 41.730991, 'lng' => -85.83901105];
 
 // ── Domain / URLs ───────────────────────────────────────────
