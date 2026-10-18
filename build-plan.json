@@ -1,0 +1,898 @@
+{
+  "seo": {
+    "serp_context": null,
+    "target_radius": 25,
+    "primary_keyword": "handyman elkhart in",
+    "secondary_keywords": [
+      "bathroom remodeling elkhart",
+      "kitchen remodeling elkhart",
+      "handyman near me elkhart",
+      "home remodeling elkhart"
+    ]
+  },
+  "tier": "basic",
+  "email": "andypoe1963@gmail.com",
+  "pages": [
+    {
+      "slug": "flooring-installation",
+      "type": "service",
+      "title": "Flooring Installation in , IN",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Flooring Installation"
+      ],
+      "primary_keyword": "flooring installation  IN"
+    },
+    {
+      "slug": "siding-window-replacement",
+      "type": "service",
+      "title": "Siding & Window Replacement in , IN",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Siding & Window Replacement"
+      ],
+      "primary_keyword": "siding & window replacement  IN"
+    },
+    {
+      "slug": "remodeling-services",
+      "type": "service_group",
+      "title": "Remodeling Services in , IN",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "Bathroom Remodeling",
+        "Kitchen Remodeling"
+      ],
+      "primary_keyword": "bathroom remodeling  IN"
+    },
+    {
+      "slug": "additional-services",
+      "type": "service_group",
+      "title": "Additional Services in , IN",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "Roofing (roof repair & replacement)",
+        "Handyman Services (drywall repair, interior & exterior painting, door installation & repair, TV mounting, shelving installation, furniture assembly, fixture replacement, caulking & weatherproofing, deck repair, fence repair, small home repairs)"
+      ],
+      "primary_keyword": "handyman services (drywall repair, interior & exterior painting, door installation & repair, tv mounting, shelving installation, furniture assembly, fixture replacement, caulking & weatherproofing, deck repair, fence repair, small home repairs)  IN"
+    }
+  ],
+  "phone": "(219) 296-5827",
+  "assets": {
+    "logo": null,
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752274276-82.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752274276-82.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751965708-1977.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751965708-1977.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752198021-415.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752198021-415.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752240672-81.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752240672-81.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752240982-410.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752240982-410.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791750973122-1000002113.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791750973122-1000002113.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791750990995-1000002112.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791750990995-1000002112.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751007399-1000002111.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751007399-1000002111.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751026401-1000002114.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751026401-1000002114.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751041225-1000002213.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751041225-1000002213.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751059176-1000002211.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751059176-1000002211.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751077842-1000002209.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751077842-1000002209.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751095100-1000002210.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751095100-1000002210.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751108332-1000002207.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751108332-1000002207.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751123116-1000002320.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751123116-1000002320.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751146426-1000002319.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751146426-1000002319.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751164088-1000002321.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751164088-1000002321.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751182919-1000002331.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751182919-1000002331.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751209124-1000002330.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751209124-1000002330.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751232302-1000002329.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751232302-1000002329.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751251282-1000002328.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751251282-1000002328.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751269127-1000002410.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751269127-1000002410.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751320951-1000002425.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751320951-1000002425.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751477716-1000002596.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751477716-1000002596.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751290027-1000002411.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751290027-1000002411.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751343847-1000002427.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751343847-1000002427.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751532422-1000002602.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751532422-1000002602.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751819228-1973.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751819228-1973.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751837787-1974.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751837787-1974.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752187945-95.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752187945-95.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752339620-f3825003-2f6f-431e-8723-7d3be1725ac4-1_all_458.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752339620-f3825003-2f6f-431e-8723-7d3be1725ac4-1_all_458.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751363540-1000002426.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751363540-1000002426.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751563791-1000002604.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751563791-1000002604.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751627137-1000002613.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751627137-1000002613.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751865815-1975.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751865815-1975.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752076269-1980.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752076269-1980.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752082014-1765.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752082014-1765.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751380680-1000002417.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751380680-1000002417.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751393851-1000002578.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751393851-1000002578.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751758249-2012.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751758249-2012.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752119529-412.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752119529-412.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751434296-1000002584.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751434296-1000002584.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751522990-1000002599.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751522990-1000002599.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751586944-1000002607.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751586944-1000002607.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751607810-1000002614.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751607810-1000002614.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751646690-1000002615.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751646690-1000002615.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751663997-1000002616.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751663997-1000002616.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751687759-1000002215.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751687759-1000002215.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751718556-1000002217.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751718556-1000002217.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751738650-1000002216.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751738650-1000002216.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751788577-1986.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751788577-1986.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751916948-1976.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751916948-1976.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751991729-1978.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791751991729-1978.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752005769-1000002637.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752005769-1000002637.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752034077-1979.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752034077-1979.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752087708-1764.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752087708-1764.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752172697-414.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752172697-414.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752065202-1000002611.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752065202-1000002611.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752102807-301.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752102807-301.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752386121-f3825003-2f6f-431e-8723-7d3be1725ac4-1_all_459.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752386121-f3825003-2f6f-431e-8723-7d3be1725ac4-1_all_459.jpg",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/onboarding/aa333a0d-8ede-4998-917e-54b2a735b019/1791752274276-82.jpg",
+      "context": "other",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "modern",
+    "colors": {
+      "extracted_from_logo": true
+    },
+    "logo_analysis": {}
+  },
+  "domain": "ap-remodeling-handyman-list",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "",
+    "city": "",
+    "state": "IN",
+    "street": "Elkhart"
+  },
+  "content": {
+    "usps": [],
+    "years": 32,
+    "insurance": "",
+    "description": "A small company, 32 years experience bet in business for 32 years, a 100% quality. And when your workmanship and all warranties on product call us for a free estimate.\\n And have your dreams come true.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "",
+  "industry": "Handyman/Remodeling",
+  "services": [
+    "Handyman Services (drywall repair, interior & exterior painting, door installation & repair, TV mounting, shelving installation, furniture assembly, fixture replacement, caulking & weatherproofing, deck repair, fence repair, small home repairs)",
+    "Bathroom Remodeling",
+    "Kitchen Remodeling",
+    "Roofing (roof repair & replacement)",
+    "Siding & Window Replacement",
+    "Flooring Installation"
+  ],
+  "owner_name": "Charles Poe",
+  "client_slug": "ap-remodeling-handyman-list",
+  "form_action": "https://db.pageone.cloud/functions/v1/leads/ap-remodeling-handyman-list",
+  "github_repo": "",
+  "web_sources": [
+    "https://maps.google.com/maps?cid=1428684112360374645",
+    "https://andypoe1963.wixsite.com/ap-remodeling-handym"
+  ],
+  "company_name": "AP Remodeling Handyman List",
+  "integrations": {
+    "geo": {
+      "lat": 41.730991,
+      "lng": -85.83901105
+    },
+    "bbb_url": null,
+    "booking": {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "method": "onboarding",
+      "windows": [
+        "8-10 am",
+        "10 am-12 pm",
+        "12-2 pm",
+        "2-4 pm",
+        "4-6 pm"
+      ],
+      "authorized": true,
+      "authorized_at": "2026-10-11T21:00:25.365Z",
+      "authorized_by": "Charles Poe"
+    },
+    "spanish": false,
+    "financing": {
+      "url": "Yeah",
+      "provider": ""
+    },
+    "photo_day": null,
+    "accepts_sms": false,
+    "gbp_place_id": "ChIJfRx5xSR5SA8RdQF8daG00xM",
+    "estimate_tool": {
+      "method": "onboarding",
+      "pricing": [
+        {
+          "low": 1500,
+          "high": 225000,
+          "note": "",
+          "unit": "per job",
+          "service": "Handyman/Handywoman/Handyperson"
+        }
+      ],
+      "authorized": true,
+      "authorized_at": "2026-10-11T21:00:25.365Z",
+      "authorized_by": "Charles Poe"
+    },
+    "gbp_map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d762243.7496723352!2d-85.83901105!3d41.730991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf487924c5791c7d%3A0x13d3b4a1757c0175!2sAP%20Remodeling%20Handyman%20List!5e0!3m2!1sen!2sus!4v1792341617899!5m2!1sen!2sus\" loading=\"lazy\" allowfullscreen referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=place_id:ChIJfRx5xSR5SA8RdQF8daG00xM",
+    "elfsight_embed": null,
+    "financing_note": null,
+    "scheduling_url": null,
+    "text_us_number": "12192965827",
+    "review_request_url": "https://search.google.com/local/writereview?placeid=ChIJfRx5xSR5SA8RdQF8daG00xM",
+    "certification_links": []
+  },
+  "service_areas": [
+    "Elkhart, IN",
+    "Mishawaka, IN",
+    "South Bend, IN",
+    "Osceola, IN",
+    "Bristol, IN",
+    "Plymouth, IN",
+    "Warsaw, IN",
+    "Kendallville, IN",
+    "Ligonier, IN",
+    "Niles, MI",
+    "Edwardsburg, MI"
+  ],
+  "address_public": true,
+  "business_hours": "Mon–Sun 9:00 AM–6:00 PM",
+  "image_curation": null,
+  "research_brief": {
+    "gbp": null,
+    "brief": {
+      "faqs": [
+        {
+          "a": "Yes. We provide free estimates for most projects so you know the scope and cost before you commit. [Confirm current estimate policy and any exceptions.]",
+          "q": "Do you offer free estimates?"
+        },
+        {
+          "a": "We handle everyday handyman repairs, such as drywall patching, fixture installs, and door or cabinet repairs, as well as larger remodeling projects like bathroom and kitchen updates. [Confirm the exact service list.]",
+          "q": "What types of jobs do you handle?"
+        },
+        {
+          "a": "[Confirm licensing and insurance status before publishing. Once verified, state the coverage clearly and offer to share certificates on request.]",
+          "q": "Are you licensed and insured?"
+        },
+        {
+          "a": "We serve homeowners across Indiana, including [list confirmed cities or counties]. Call or submit the request form to check whether your location is within our service area.",
+          "q": "Do you serve my area in Indiana?"
+        },
+        {
+          "a": "Pricing depends on the scope, materials, and time involved. We explain the cost in writing after the estimate, so there are no surprises. [Confirm whether pricing is hourly, flat-rate, or per project.]",
+          "q": "How do you price your work?"
+        }
+      ],
+      "about_angle": "Position the business as a local, one-call team for homeowners who need both small fixes and bigger remodeling projects. Lead with hands-on workmanship, clear communication, and a connection to the Indiana communities served. Avoid unverified claims such as years in business, license numbers, or awards until the client supplies them.",
+      "hero_headline": "Trusted Handyman and Remodeling Help Across Indiana",
+      "differentiators": [
+        "Provisional: no competitor, Google Business Profile, or existing-site data was supplied, so these are category-level angles to verify with the client before publishing.",
+        "One-call scope: a single local team handles small repairs and larger remodel projects, so homeowners don't need separate contractors (confirm the actual service mix).",
+        "Local Indiana focus: service-area content for named Indiana communities, which generic national directories don't cover (city and service area still need to be provided).",
+        "Transparent estimate process: free, clearly explained estimates and pricing approach (confirm whether this is hourly, flat-rate, or per project).",
+        "Verifiable credentials: display licensing, insurance, and certifications only once the client confirms them with documentation."
+      ],
+      "hero_subheadline": "From quick repairs to full remodels, one local team takes care of your home. Request a free estimate today.",
+      "tone_recommendation": "Friendly-professional: warm, plain-spoken, and competent. Use clear everyday language, avoid jargon and hard-sell phrasing, and let the service details and local connection carry the trust. Keep claims conservative until the client verifies them."
+    },
+    "competitors": [],
+    "generated_at": "2026-10-18T16:44:56.310Z",
+    "existing_site": null
+  },
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 4,
+    "tier": "basic",
+    "groups": [
+      {
+        "page": "Flooring Installation",
+        "solo": true,
+        "services": [
+          "Flooring Installation"
+        ]
+      },
+      {
+        "page": "Siding & Window Replacement",
+        "solo": true,
+        "services": [
+          "Siding & Window Replacement"
+        ]
+      },
+      {
+        "page": "Remodeling Services",
+        "services": [
+          "Bathroom Remodeling",
+          "Kitchen Remodeling"
+        ]
+      },
+      {
+        "page": "Additional Services",
+        "services": [
+          "Roofing (roof repair & replacement)",
+          "Handyman Services (drywall repair, interior & exterior painting, door installation & repair, TV mounting, shelving installation, furniture assembly, fixture replacement, caulking & weatherproofing, deck repair, fence repair, small home repairs)"
+        ]
+      }
+    ],
+    "grouped_count": 4,
+    "original_count": 6
+  },
+  "lead_notification_email": "andypoe1963@gmail.com",
+  "lead_notification_phone": "(219) 296-5827",
+  "google_business_profile_url": "https://share.google/rE66BvwmFRxXlJzmy"
+}
