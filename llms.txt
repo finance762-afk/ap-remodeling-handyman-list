@@ -1,6 +1,6 @@
 # AP Remodeling Handyman List
 
-> AP Remodeling Handyman List is a small, owner-run handyman and home remodeling company in Elkhart, Indiana. Owner Charles Poe has 30+ years in business. The company handles everyday repairs, bathroom and kitchen remodeling, flooring, siding and window replacement, and roofing for homeowners in Northern Indiana and Southwest Michigan. Estimates are free.
+> AP Remodeling Handyman List is a small, owner-run handyman and home remodeling company in Elkhart, Indiana. Owner Charles Poe has 30+ years in business. The company handles everyday repairs, bathroom and kitchen remodeling, flooring, and siding and window replacement for homeowners in Northern Indiana and Southwest Michigan. Estimates are free.
 
 ## Business Information
 
@@ -21,7 +21,7 @@
 - [Flooring Installation](https://ap-remodeling-handyman-list.pageone.cloud/services/flooring-installation/): flooring for baths, bedrooms and living areas, including tile.
 - [Siding & Window Replacement](https://ap-remodeling-handyman-list.pageone.cloud/services/siding-window-replacement/): siding and window replacement with trim, caulking and drywall returns finished.
 - [Bathroom & Kitchen Remodeling](https://ap-remodeling-handyman-list.pageone.cloud/services/remodeling-services/): bathroom and kitchen remodels, with tile, drywall, paint and fixtures handled by one company.
-- [Handyman Services & Roofing](https://ap-remodeling-handyman-list.pageone.cloud/services/additional-services/): drywall repair, interior and exterior painting, door installation and repair, TV mounting, shelving installation, furniture assembly, fixture replacement, caulking and weatherproofing, deck repair, fence repair, small home repairs, and roof repair and replacement.
+- [Handyman Services](https://ap-remodeling-handyman-list.pageone.cloud/services/additional-services/): drywall repair, interior and exterior painting, door installation and repair, TV mounting, shelving installation, furniture assembly, fixture replacement, caulking and weatherproofing, deck repair, fence repair, and small home repairs.
 - [All services](https://ap-remodeling-handyman-list.pageone.cloud/services/)
 
 ## Service Areas

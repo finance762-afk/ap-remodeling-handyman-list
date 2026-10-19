@@ -198,7 +198,7 @@ $schemaMarkup = [
         <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 30+ years.</p>
         <p>The photo shows the inside half of a window job: an arched window with plantation shutters, its drywall return finished smooth and masked off for paint. A window can be set correctly and still look unfinished from indoors if the return, trim and paint are left for someone else.</p>
         <p>Northern Indiana houses take lake-effect snow, freezing rain and repeated freeze-and-thaw swings, and each of those finds gaps in aging siding and window seals. Caulking and weatherproofing are already on the AP Remodeling handyman list, so sealing a new opening is part of the job, not an extra call.</p>
-        <p>Siding replacement starts with a question the estimate visit answers: what is behind the old siding. What is found there sets the scope, which is why the price is set after the visit. Roofing meets siding at the eaves, so see <a href="/services/additional-services/#roofing">roof repair and replacement</a> if the two belong in one estimate.</p>
+        <p>Siding replacement starts with a question the estimate visit answers: what is behind the old siding. What is found there sets the scope, which is why the price is set after the visit. Siding meets the roofline at the eaves, so mention any <a href="/services/additional-services/#roof-repair">roof repair</a> you need when you book the visit.</p>
       </div>
       <figure class="svc-figure reveal-left">
           <picture>
@@ -271,7 +271,7 @@ $schemaMarkup = [
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Other Services You May Need</span>
       <h2>Which other AP Remodeling services go with siding and windows?</h2>
-      <p class="answer-block">Siding and window work often sits next to roofing at the eaves, flooring inside, and drywall and paint on the walls. AP Remodeling Handyman List handles each of these, so one estimate visit can cover several parts of the same house.</p>
+      <p class="answer-block">Siding and window work often sits next to trim and caulking at the eaves, flooring inside, and drywall and paint on the walls. AP Remodeling Handyman List handles each of these, so one estimate visit can cover several parts of the same house.</p>
     </div>
     <div class="services-grid">
       <article class="service-card-with-image card-tint-1 reveal-up reveal-delay-1">
@@ -283,14 +283,14 @@ $schemaMarkup = [
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><?php echo icon('wrench', 22); ?></div>
-          <h3>Handyman &amp; Roofing</h3>
-          <p class="service-card__desc">Drywall, paint, doors, fixtures, deck and fence fixes, plus roof repair and replacement.</p>
+          <h3>Handyman Services</h3>
+          <p class="service-card__desc">Drywall, paint, doors, TV mounts, shelving, fixtures, and deck and fence fixes.</p>
           <ul>
             <li>Drywall patched, taped and painted</li>
             <li>TV mounts, shelving, furniture assembly</li>
-            <li>Roof repair and full replacement</li>
+            <li>Deck and fence repairs</li>
           </ul>
-          <a href="/services/additional-services/" class="service-card__cta">See Handyman &amp; Roofing</a>
+          <a href="/services/additional-services/" class="service-card__cta">See Handyman Services</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">

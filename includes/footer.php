@@ -16,7 +16,7 @@ $footSub    = implode(' ', array_slice($footWords, 2)) ?: ($address['city'] . ',
 $footPlace  = $address['city'] . ', ' . $address['state'];
 $footAreaHub = pageBuilt('/service-area/') ? '/service-area/' : (pageBuilt('/service-areas/') ? '/service-areas/' : '');
 
-// Individual services, for the entity paragraph (names only — "Roofing (roof repair & replacement)" → "Roofing").
+// Individual services, for the entity paragraph (names only — "Handyman Services (drywall repair, …)" → "Handyman Services").
 $footNames = [];
 foreach ($services as $footSvc) {
     foreach ((array) ($footSvc['includes'] ?? [$footSvc['name']]) as $footInc) $footNames[] = strtolower(shortServiceName($footInc));

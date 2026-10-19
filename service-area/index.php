@@ -163,11 +163,11 @@ $schemaMarkup = [
       <div class="reveal-left">
         <span class="eyebrow">What We Do</span>
         <h2>What does AP Remodeling Handyman List do in each town?</h2>
-        <p class="answer-block">In every town on the list, AP Remodeling Handyman List does the same range of work: handyman repairs, bathroom and kitchen remodeling, flooring, siding and windows, and roofing. Estimates are free, and visits are scheduled Monday through Friday in two-hour windows.</p>
+        <p class="answer-block">In every town on the list, AP Remodeling Handyman List does the same range of work: handyman repairs, bathroom and kitchen remodeling, flooring, and siding and windows. Estimates are free, and visits are scheduled Monday through Friday in two-hour windows.</p>
         <p>The <a href="/services/">full services list</a> explains each group of work. <a href="/contact/#book-visit">Request an estimate visit</a> and name your town so the visit can be planned around it.</p>
       </div>
       <ul class="service-links reveal-right">
-        <li><a class="service-link-card" href="/services/additional-services/">Handyman and roofing</a></li>
+        <li><a class="service-link-card" href="/services/additional-services/">Handyman services</a></li>
         <li><a class="service-link-card" href="/services/remodeling-services/">Bathroom and kitchen remodeling</a></li>
         <li><a class="service-link-card" href="/services/flooring-installation/">Flooring installation</a></li>
         <li><a class="service-link-card" href="/services/siding-window-replacement/">Siding and window replacement</a></li>

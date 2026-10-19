@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 /* ------------------------------------------------------------------ *
- * Handyman & Roofing — AP Remodeling Handyman List (Phase 4, 2026-10-18)
+ * Handyman Services — AP Remodeling Handyman List (Phase 4, 2026-10-18)
  * Archetype: warm-human · Tier: basic. Every fact traces to build-plan.json / config.php
  * or to what the client's own job photos show. Facts the page wanted but intake did not
  * supply are listed in /content-confirmations.json, not invented.
@@ -14,8 +14,8 @@ $currentPage = 'services';
 $pageType    = 'service';
 $serviceSlug = 'additional-services';
 
-$pageTitle       = 'Handyman & Roofing Services Elkhart, IN | AP Remodeling';
-$pageDescription = 'Handyman services and roof repair in Elkhart, IN from AP Remodeling Handyman List: drywall, paint, doors, TV mounting, decks, fences. Call for a free estimate.';
+$pageTitle       = 'Handyman Services Elkhart, IN | AP Remodeling';
+$pageDescription = 'Handyman services in Elkhart, IN from AP Remodeling Handyman List: drywall, paint, doors, TV mounting, shelving, decks and fences. Call for a free estimate.';
 $canonicalUrl    = $siteUrl . '/services/' . $serviceSlug . '/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -28,15 +28,15 @@ $heroPreload = [
 /* FAQs — questions from the research brief and intake only (0–4 per page; none invented). */
 $faqs = [
     [
-        'q' => 'What does a handyman or roofing estimate cost?',
-        'a' => 'No. AP Remodeling Handyman List does not charge to look at a handyman list or a roof and price the work. Estimate visits run Monday through Friday in two-hour windows between 8 AM and 6 PM, and you decide afterward whether to go ahead.',
+        'q' => 'What does a handyman estimate cost?',
+        'a' => 'No. AP Remodeling Handyman List does not charge to look at a handyman list and price the work. Estimate visits run Monday through Friday in two-hour windows between 8 AM and 6 PM, and you decide afterward whether to go ahead.',
     ],
     [
         'q' => 'How is handyman work priced?',
         'a' => 'Each job is priced after the estimate visit, once the scope, the materials and the time involved are known. Whether small jobs are charged by the hour or by the job is settled in that visit.',
     ],
     [
-        'q' => 'Do you do handyman jobs and roofs in my town?',
+        'q' => 'Do you do handyman jobs in my town?',
         'a' => 'AP Remodeling Handyman List works in Elkhart, Mishawaka, South Bend, Osceola, Bristol, Plymouth, Warsaw, Kendallville and Ligonier in Indiana, and in Niles and Edwardsburg in Michigan. If your town is not listed, call ' . $phone . ' and ask.',
     ],
 ];
@@ -51,7 +51,7 @@ $schemaMarkup = [
     generateBreadcrumbSchema([
         ['name' => 'Home',     'url' => '/'],
         ['name' => 'Services', 'url' => '/services/'],
-        ['name' => 'Handyman & Roofing', 'url' => '/services/' . $serviceSlug . '/'],
+        ['name' => 'Handyman Services', 'url' => '/services/' . $serviceSlug . '/'],
     ]),
     generateFAQSchema($faqs),
 ];
@@ -150,7 +150,7 @@ $schemaMarkup = [
 </style>
 
 <!-- ============ HERO ============ -->
-<section class="hero hero--photo hero--interior svc-hero" aria-label="Handyman &amp; Roofing introduction">
+<section class="hero hero--photo hero--interior svc-hero" aria-label="Handyman services introduction">
   <div class="hero-bg">
     <picture>
             <source type="image/avif" srcset="/assets/images/1000002213-480.avif 480w, /assets/images/1000002213-960.avif 960w, /assets/images/1000002213-1600.avif 1600w" sizes="100vw">
@@ -170,12 +170,12 @@ $schemaMarkup = [
           <li class="breadcrumb-sep" aria-hidden="true">›</li>
           <li><a href="/services/">Services</a></li>
           <li class="breadcrumb-sep" aria-hidden="true">›</li>
-          <li aria-current="page">Handyman &amp; Roofing</li>
+          <li aria-current="page">Handyman Services</li>
         </ol>
       </nav>
-        <span class="eyebrow">Services · Handyman &amp; Roofing</span>
-        <h1 class="hero-title">Handyman services and roofing in Elkhart, Indiana</h1>
-        <p class="hero-answer">AP Remodeling Handyman List fixes small things and big ones around Elkhart: drywall, paint, doors, mounts, fixtures, decks, fences and roofs. The company has 30+ years in business and prices each job after an in-person estimate visit on a weekday.</p>
+        <span class="eyebrow">Services · Handyman</span>
+        <h1 class="hero-title">Handyman services in Elkhart, Indiana</h1>
+        <p class="hero-answer">AP Remodeling Handyman List fixes small things and big ones around Elkhart: drywall, paint, doors, mounts, shelving, fixtures, decks and fences. The company has 30+ years in business and prices each job after an in-person estimate visit on a weekday.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -186,7 +186,7 @@ $schemaMarkup = [
         <ul class="hero-chips">
           <li><?php echo icon('check-circle', 16); ?>Free estimates</li>
           <li><?php echo icon('clock', 16); ?>Open 7 days, 9–6</li>
-          <li><?php echo icon('wrench', 16); ?>Handyman list to roofing</li>
+          <li><?php echo icon('wrench', 16); ?>Small jobs on one list</li>
         </ul>
       </div>
 
@@ -276,28 +276,28 @@ $schemaMarkup = [
   </div>
 </section>
 
-<!-- ============ ROOFING ============ -->
-<section class="section edge-curve-top svc-roof" id="roofing" aria-label="Roof repair and replacement">
+<!-- ============ ROOF REPAIR ============ -->
+<section class="section edge-curve-top svc-roof" id="roof-repair" aria-label="Roof repair">
   <div class="container">
     <article class="split">
       <div class="detail-copy reveal-left">
-        <span class="eyebrow">Roofing</span>
-        <h2>Does <span class="text-accent">AP Remodeling</span> repair and replace roofs?</h2>
-        <p class="answer-block">Yes. AP Remodeling Handyman List repairs and replaces roofs on homes in Elkhart and nearby towns. Roofing is priced after an estimate visit, because the size, pitch and condition of the roof set the scope of the job and whether a repair or a full replacement makes sense.</p>
-        <p>Snow load, ice at the eaves and freeze-and-thaw cycles are what tend to expose weak spots on Northern Indiana roofs, so a roof that looks fine in summer can leak after the first heavy thaw. Roof problems also reach the inside: a stain on a ceiling is drywall and paint work as well as roofing, and AP Remodeling does both.</p>
-        <p>Roofing meets the walls at the eaves, so <a href="/services/siding-window-replacement/">siding and window replacement</a> is often worth pricing in the same visit.</p>
+        <span class="eyebrow">Also on the list</span>
+        <h2>Can <span class="text-accent">AP Remodeling</span> look at a roof repair?</h2>
+        <p class="answer-block">AP Remodeling Handyman List can look at roof repairs on homes in Elkhart and nearby towns. Mention the roof when you book the estimate visit; what the visit finds sets the scope and the price.</p>
+        <p>A leak often shows up inside first, as a stain on a ceiling. That stain is drywall and paint work as well as a roof repair, and both can be looked at in the same visit.</p>
+        <p>The roofline meets the walls at the eaves, so <a href="/services/siding-window-replacement/">siding and window replacement</a> can be priced in the same visit.</p>
       </div>
       <div class="reveal-right">
         <table class="roof-table">
-          <caption>Repair or replace: what usually decides it</caption>
-          <thead><tr><th scope="col">What you see</th><th scope="col">Usually points toward</th></tr></thead>
+          <caption>What to mention when you call</caption>
+          <thead><tr><th scope="col">What you see</th><th scope="col">Worth telling us</th></tr></thead>
           <tbody>
-            <tr><th scope="row">One leak or a few damaged spots</th><td>Repair</td></tr>
-            <tr><th scope="row">Damage spread across much of the roof</th><td>Replacement</td></tr>
-            <tr><th scope="row">The same area failing again after repairs</th><td>Replacement is worth pricing</td></tr>
+            <tr><th scope="row">A drip or leak after rain or a thaw</th><td>Roughly where the water shows up</td></tr>
+            <tr><th scope="row">Missing or lifted shingles</th><td>Which side of the house</td></tr>
+            <tr><th scope="row">A stain on a ceiling</th><td>The room, so the drywall can be checked too</td></tr>
           </tbody>
         </table>
-        <p class="roof-note">The estimate visit makes the call for your roof; this table is only a starting point.</p>
+        <p class="roof-note">The estimate visit sets the scope and the price.</p>
       </div>
     </article>
   </div>
@@ -319,13 +319,13 @@ endif;
     <div class="svc-why__grid">
       <div class="section-head reveal-left">
         <span class="eyebrow">Why AP Remodeling</span>
-        <h2>Why call AP Remodeling for small jobs and roofs?</h2>
-        <p class="answer-block">AP Remodeling Handyman List covers the small fixes and the roof from one phone number in Elkhart, and has been in business for 30+ years. A homeowner with a sagging door, a loose rail and a ceiling stain can make one call instead of three.</p>
+        <h2>Why call AP Remodeling for small jobs?</h2>
+        <p class="answer-block">AP Remodeling Handyman List covers a whole list of small fixes from one phone number in Elkhart, and has been in business for 30+ years. A homeowner with a sagging door, a loose rail and a ceiling stain can make one call instead of three.</p>
       </div>
       <ul class="why-list reveal-right">
         <li><?php echo icon("check-circle", 22); ?><span>Drywall, paint and caulking done by the same company</span></li>
         <li><?php echo icon("check-circle", 22); ?><span>Deck and fence repair alongside interior fixes</span></li>
-        <li><?php echo icon("check-circle", 22); ?><span>Roof repair and replacement priced after an estimate visit</span></li>
+        <li><?php echo icon("check-circle", 22); ?><span>Every job priced after an in-person estimate visit</span></li>
         <li><?php echo icon("check-circle", 22); ?><span>Open seven days a week, 9 AM to 6 PM, at <?php echo phoneLink(); ?></span></li>
       </ul>
     </div>
@@ -335,14 +335,14 @@ endif;
   <div class="container-narrow">
     <div class="section-head reveal-up">
       <span class="eyebrow">How It Works</span>
-      <h2>How does a handyman or roofing job get scheduled?</h2>
+      <h2>How does a handyman job get scheduled?</h2>
       <p class="answer-block">A job is scheduled in four steps: tell us what needs doing, pick a weekday estimate window, walk the job with us, then set a start date. Listing every small job up front lets the visit cover them in one trip.</p>
     </div>
       <ol class="next-steps">
           <li><strong>List the jobs</strong>Call or send the form with everything on your list, small and large, and the town the house is in.</li>
           <li><strong>Request an estimate window</strong>Pick a weekday, Monday through Friday, in a two-hour window between 8 AM and 6 PM. <a href="/contact/#book-visit">Request an estimate visit</a> online or by phone.</li>
           <li><strong>Walk the job</strong>The work is looked at in person, and the scope and price are talked through before any work is scheduled.</li>
-          <li><strong>Do the work</strong>Walls are patched, primed and painted, openings are caulked, and fixtures and roof work are finished.</li>
+          <li><strong>Do the work</strong>Walls are patched, primed and painted, openings are caulked, and fixtures and repairs are finished.</li>
       </ol>
   </div>
 </section>
@@ -351,8 +351,8 @@ endif;
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow">Questions</span>
-      <h2>What do homeowners ask before a <span class="text-accent">handyman or roofing</span> job?</h2>
-      <p class="answer-block">Homeowners ask three things before a handyman or roofing job: whether the estimate is free, how the work is priced, and whether AP Remodeling works in their town. The answers below describe how the company handles estimates in Elkhart and the towns around it.</p>
+      <h2>What do homeowners ask before a <span class="text-accent">handyman</span> job?</h2>
+      <p class="answer-block">Homeowners ask three things before a handyman job: whether the estimate is free, how the work is priced, and whether AP Remodeling works in their town. The answers below describe how the company handles estimates in Elkhart and the towns around it.</p>
     </div>
     <div class="faq-grid">
 <?php foreach (array_chunk($faqs, (int) ceil(count($faqs) / 2)) as $faqColIdx => $faqCol): ?>
@@ -443,7 +443,7 @@ endif;
     <div class="reveal-up">
       <span class="eyebrow">Next step</span>
       <h2>Ready to get your list of jobs priced?</h2>
-      <p class="answer-block">AP Remodeling Handyman List gives estimates at no charge on handyman work and roofing in Elkhart and nearby towns. Call <?php echo phoneLink(); ?> or send the form, and ask for a weekday estimate visit in a two-hour window that suits you. There is no charge for the estimate, and nothing is scheduled until you have seen the scope and the price.</p>
+      <p class="answer-block">AP Remodeling Handyman List gives estimates at no charge on handyman work in Elkhart and nearby towns. Call <?php echo phoneLink(); ?> or send the form, and ask for a weekday estimate visit in a two-hour window that suits you. There is no charge for the estimate, and nothing is scheduled until you have seen the scope and the price.</p>
     </div>
     <div class="actions reveal-scale">
       <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Request an estimate</button>

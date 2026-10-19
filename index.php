@@ -14,7 +14,7 @@ $currentPage = 'home';
 $pageType    = 'home';
 
 $pageTitle       = 'Elkhart Handyman & Remodeling | AP Remodeling Handyman List';
-$pageDescription = 'Handyman repairs, kitchen and bath remodeling, flooring, siding, windows and roofing in Elkhart, IN from AP Remodeling Handyman List. Call for a free estimate.';
+$pageDescription = 'Handyman repairs, kitchen and bath remodeling, flooring, siding, and windows in Elkhart, IN from AP Remodeling Handyman List. Call for a free estimate.';
 $canonicalUrl    = $siteUrl . '/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -39,7 +39,7 @@ $faqs = [
     ],
     [
         'q' => 'What kinds of jobs do you take on?',
-        'a' => 'AP Remodeling Handyman List handles handyman repairs (drywall, interior and exterior painting, doors, TV mounting, shelving, furniture assembly, fixtures, caulking and weatherproofing, deck and fence repair), bathroom and kitchen remodeling, flooring installation, siding and window replacement, and roof repair and replacement.',
+        'a' => 'AP Remodeling Handyman List handles handyman repairs (drywall, interior and exterior painting, doors, TV mounting, shelving, furniture assembly, fixtures, caulking and weatherproofing, deck and fence repair), bathroom and kitchen remodeling, flooring installation, and siding and window replacement.',
     ],
     [
         'q' => 'Which towns do you serve?',
@@ -64,11 +64,11 @@ $schemaMarkup = [generateFAQSchema($faqs)];
 /* Service cards — one per service page (config.php $services). Photos from the manifest. */
 $homeServices = [
     [
-        'slug' => 'additional-services', 'name' => 'Handyman & Roofing', 'icon' => 'wrench',
+        'slug' => 'additional-services', 'name' => 'Handyman Services', 'icon' => 'wrench',
         'img'  => '1000002213',
         'alt'  => 'Bathroom wall with fresh drywall patching around new tile, ready for primer and paint',
-        'desc' => 'Drywall, paint, doors, fixtures, deck and fence fixes, plus roof repair and replacement.',
-        'bullets' => ['Drywall patched, taped and painted', 'TV mounts, shelving, furniture assembly', 'Roof repair and full replacement'],
+        'desc' => 'Drywall, paint, doors, TV mounts, shelving, fixtures, and deck and fence fixes.',
+        'bullets' => ['Drywall patched, taped and painted', 'TV mounts, shelving, furniture assembly', 'Deck and fence repairs'],
     ],
     [
         'slug' => 'remodeling-services', 'name' => 'Bathroom & Kitchen Remodeling', 'icon' => 'droplets',
@@ -126,7 +126,6 @@ $tickerItems = [
     ['wrench', 'Drywall repair'], ['paint-bucket', 'Interior & exterior painting'], ['home', 'Door installation & repair'],
     ['ruler', 'TV mounting'], ['hammer', 'Shelving installation'], ['wrench', 'Furniture assembly'],
     ['droplets', 'Fixture replacement'], ['shield-check', 'Caulking & weatherproofing'], ['fence', 'Deck & fence repair'],
-    ['house', 'Roof repair & replacement'],
 ];
 
 /* Proof strip — four facts straight from intake/config. */
@@ -134,7 +133,7 @@ $proofItems = [
     ['Charles <span>Poe</span>', 'Owner, AP Remodeling'],
     [count($serviceAreas) . ' <span>Towns</span>', 'Across Indiana &amp; Michigan'],
     ['2-Hour <span>Windows</span>', 'Weekday estimate visits'],
-    [count(array_merge(...array_column($services, 'includes'))) . ' <span>Trades</span>', 'Handyman to roofing, one number'],
+    [count(array_merge(...array_column($services, 'includes'))) . ' <span>Trades</span>', 'Handyman to remodeling, one number'],
 ];
 ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'; ?>
@@ -260,7 +259,7 @@ $proofItems = [
       <div class="hero-text">
         <span class="eyebrow">Elkhart, IN · Northern Indiana &amp; Southwest Michigan</span>
         <h1 class="hero-title">Elkhart handyman repairs and remodels</h1>
-        <p class="hero-answer">AP Remodeling Handyman List does drywall, doors, tile baths, floors and roofs for homes in Elkhart and nearby towns. The company is owned by Charles Poe, has 30+ years in business, and prices every job after a free in-person estimate visit.</p>
+        <p class="hero-answer">AP Remodeling Handyman List does drywall, doors, tile baths, floors and siding for homes in Elkhart and nearby towns. The company is owned by Charles Poe, has 30+ years in business, and prices every job after a free in-person estimate visit.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -382,7 +381,7 @@ $proofItems = [
     <div class="section-title reveal-up">
       <span class="eyebrow-label">What We Do</span>
       <h2>Which home repairs and <span class="text-accent">remodeling</span> jobs does AP Remodeling take on in <span class="text-accent">Elkhart</span>?</h2>
-      <p class="hero-answer">AP Remodeling Handyman List takes on handyman repairs, bathroom and kitchen remodeling, flooring installation, siding and window replacement, and roof repair and replacement for homes in and around Elkhart. The handyman list covers drywall, painting, doors, TV mounting, shelving, furniture assembly, fixtures, caulking, deck and fence repair.</p>
+      <p class="hero-answer">AP Remodeling Handyman List takes on handyman repairs, bathroom and kitchen remodeling, flooring installation, and siding and window replacement for homes in and around Elkhart. The handyman list covers drywall, painting, doors, TV mounting, shelving, furniture assembly, fixtures, caulking, deck and fence repair.</p>
       <span class="section-subtitle">From a sticking door to a new bathroom</span>
 <?php if ($homeEstimateTool): ?>
       <p class="prose">Wondering what a job like yours usually runs? <a href="/services/#estimate-tool">See a typical price range</a> before you call.</p>

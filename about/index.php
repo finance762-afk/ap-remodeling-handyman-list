@@ -135,7 +135,7 @@ $schemaMarkup = [
         <h2>Who runs <span class="text-accent">AP Remodeling Handyman List</span> in Elkhart?</h2>
         <p class="answer-block">AP Remodeling Handyman List is a small home repair and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 30+ years. The company takes jobs from a sticking door to a tiled walk-in shower, across eleven towns in Indiana and Michigan.</p>
         <p>Charles's focus is workmanship you can see once the job is done, and honoring the warranties that come with the products installed in your home. His invitation to a new customer is short: call for a free estimate.</p>
-        <p>Most of the photos on this site come from bathroom and interior jobs: shower walls in marble-look tile, a hexagon mosaic floor, drywall patched beside new tile, a sloped-ceiling bedroom with new baseboard, and an arched window return ready for paint. The list also reaches outside the house, with <a href="/services/siding-window-replacement/">siding and windows</a>, roofs, decks and fences on the <a href="/services/additional-services/">handyman and roofing</a> page.</p>
+        <p>Most of the photos on this site come from bathroom and interior jobs: shower walls in marble-look tile, a hexagon mosaic floor, drywall patched beside new tile, a sloped-ceiling bedroom with new baseboard, and an arched window return ready for paint. The list also reaches outside the house, with <a href="/services/siding-window-replacement/">siding and windows</a>, and decks and fences on the <a href="/services/additional-services/">handyman services</a> page.</p>
       </div>
       <figure class="page-figure reveal-right">
           <picture>
@@ -156,7 +156,7 @@ $schemaMarkup = [
       <div class="cta-band__copy">
         <span class="eyebrow">Free estimate</span>
         <h2>Want a free estimate on your project?</h2>
-        <p class="answer-block">AP Remodeling Handyman List gives in-person estimates at no charge on handyman work, remodeling, flooring, siding, windows and roofing. Send the short form and the company follows up by phone or email to set a weekday visit. No obligation, and nothing is scheduled until you have seen the price.</p>
+        <p class="answer-block">AP Remodeling Handyman List gives in-person estimates at no charge on handyman work, remodeling, flooring, siding and windows. Send the short form and the company follows up by phone or email to set a weekday visit. No obligation, and nothing is scheduled until you have seen the price.</p>
       </div>
       <div class="cta-band__card">
         <form action="<?php echo h($formAction); ?>" method="POST" class="hero-form cta-band-form">

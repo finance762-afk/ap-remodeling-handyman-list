@@ -325,14 +325,14 @@ $schemaMarkup = [
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><?php echo icon('wrench', 22); ?></div>
-          <h3>Handyman &amp; Roofing</h3>
-          <p class="service-card__desc">Drywall, paint, doors, fixtures, deck and fence fixes, plus roof repair and replacement.</p>
+          <h3>Handyman Services</h3>
+          <p class="service-card__desc">Drywall, paint, doors, TV mounts, shelving, fixtures, and deck and fence fixes.</p>
           <ul>
             <li>Drywall patched, taped and painted</li>
             <li>TV mounts, shelving, furniture assembly</li>
-            <li>Roof repair and full replacement</li>
+            <li>Deck and fence repairs</li>
           </ul>
-          <a href="/services/additional-services/" class="service-card__cta">See Handyman &amp; Roofing</a>
+          <a href="/services/additional-services/" class="service-card__cta">See Handyman Services</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">

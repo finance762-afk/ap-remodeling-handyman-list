@@ -7,7 +7,7 @@ $currentPage = 'services';
 $pageType    = 'other';
 
 $pageTitle       = 'Elkhart Handyman & Remodeling Services | AP Remodeling';
-$pageDescription = 'Handyman repairs, bathroom and kitchen remodeling, flooring, siding, windows and roofing in Elkhart, IN from AP Remodeling Handyman List. Free estimates.';
+$pageDescription = 'Handyman repairs, bathroom and kitchen remodeling, flooring, siding and windows in Elkhart, IN from AP Remodeling Handyman List. Free estimates.';
 $canonicalUrl    = $siteUrl . '/services/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -85,7 +85,7 @@ $schemaMarkup = [
       </nav>
       <span class="eyebrow">Services · Elkhart, IN</span>
       <h1 class="hero-title">Home repair and remodeling services in Elkhart, Indiana</h1>
-      <p class="hero-answer">AP Remodeling Handyman List handles handyman repairs, bathroom and kitchen remodeling, flooring, siding, windows and roofing for Elkhart-area homes. The company is owned by Charles Poe, has 30+ years in business, and works in eleven towns across Indiana and Michigan.</p>
+      <p class="hero-answer">AP Remodeling Handyman List handles handyman repairs, bathroom and kitchen remodeling, flooring, siding and windows for Elkhart-area homes. The company is owned by Charles Poe, has 30+ years in business, and works in eleven towns across Indiana and Michigan.</p>
       <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -100,7 +100,7 @@ $schemaMarkup = [
     <div class="section-title reveal-up">
       <span class="eyebrow-label">What We Do</span>
       <h2>Which <span class="text-accent">services</span> does AP Remodeling Handyman List offer in <span class="text-accent">Elkhart</span>?</h2>
-      <p class="answer-block">AP Remodeling Handyman List offers handyman repairs, bathroom and kitchen remodeling, flooring installation, siding and window replacement, and roof repair and replacement in Elkhart and nearby towns. The company works in ten more towns across Northern Indiana and Southwest Michigan, and each group below links to a page on what the work includes.</p>
+      <p class="answer-block">AP Remodeling Handyman List offers handyman repairs, bathroom and kitchen remodeling, flooring installation, and siding and window replacement in Elkhart and nearby towns. The company works in ten more towns across Northern Indiana and Southwest Michigan, and each group below links to a page on what the work includes.</p>
     </div>
     <div class="services-grid">
       <article class="service-card-with-image card-tint-1 reveal-up reveal-delay-1">
@@ -112,14 +112,14 @@ $schemaMarkup = [
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><?php echo icon('wrench', 22); ?></div>
-          <h3>Handyman &amp; Roofing</h3>
-          <p class="service-card__desc">Drywall, paint, doors, fixtures, deck and fence fixes, plus roof repair and replacement.</p>
+          <h3>Handyman Services</h3>
+          <p class="service-card__desc">Drywall, paint, doors, TV mounts, shelving, fixtures, and deck and fence fixes.</p>
           <ul>
             <li>Drywall patched, taped and painted</li>
             <li>TV mounts, shelving, furniture assembly</li>
-            <li>Roof repair and full replacement</li>
+            <li>Deck and fence repairs</li>
           </ul>
-          <a href="/services/additional-services/" class="service-card__cta">See Handyman &amp; Roofing</a>
+          <a href="/services/additional-services/" class="service-card__cta">See Handyman Services</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">
@@ -189,13 +189,13 @@ $schemaMarkup = [
     <div class="section-head reveal-up">
       <span class="eyebrow">Find Your Job</span>
       <h2>Where do I find the service for my specific job?</h2>
-      <p class="answer-block">Every job AP Remodeling takes on has a home. Bathroom and kitchen remodeling sit under Remodeling Services, roofing and the handyman list sit under Additional Services, and flooring and siding each have their own page. Pick the closest match below, or call and describe the job.</p>
+      <p class="answer-block">Every job AP Remodeling takes on has a home. Bathroom and kitchen remodeling sit under Remodeling Services, the handyman list (plus roof repair) sits under Additional Services, and flooring and siding each have their own page. Pick the closest match below, or call and describe the job.</p>
     </div>
     <div class="service-links reveal-up">
       <a class="service-link-card" href="/services/remodeling-services/#bathroom"><?php echo icon("droplets", 20); ?><span>Bathroom remodeling</span></a>
       <a class="service-link-card" href="/services/remodeling-services/#kitchen"><?php echo icon("hammer", 20); ?><span>Kitchen remodeling</span></a>
       <a class="service-link-card" href="/services/additional-services/#handyman"><?php echo icon("wrench", 20); ?><span>Handyman list: drywall, paint, doors, mounting, decks, fences</span></a>
-      <a class="service-link-card" href="/services/additional-services/#roofing"><?php echo icon("house", 20); ?><span>Roof repair and replacement</span></a>
+      <a class="service-link-card" href="/services/additional-services/#roof-repair"><?php echo icon("house", 20); ?><span>Roof repair</span></a>
       <a class="service-link-card" href="/services/flooring-installation/"><?php echo icon("layers", 20); ?><span>Flooring installation</span></a>
       <a class="service-link-card" href="/services/siding-window-replacement/"><?php echo icon("home", 20); ?><span>Siding and window replacement</span></a>
     </div>

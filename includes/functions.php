@@ -111,7 +111,7 @@ if (!function_exists('getAreaSlug')) {
 }
 
 if (!function_exists('shortServiceName')) {
-    /** "Handyman Services (drywall repair, …)" → "Handyman Services"; "Roofing (roof repair & replacement)" → "Roofing". */
+    /** "Handyman Services (drywall repair, …)" → "Handyman Services". */
     function shortServiceName(string $name): string {
         return trim(preg_replace('/\s*\(.*$/', '', $name));
     }
@@ -382,7 +382,7 @@ if (!function_exists('defaultMetaDescription')) {
     function defaultMetaDescription(): string {
         global $siteName, $address, $phone, $yearsLabel;
         $fnText = $siteName . ': ' . strtolower(keywordCore()) . ' and remodeling in ' . $address['city'] . ', ' . $address['state']
-                . '. Kitchens, baths, floors, siding, roofing. ' . $yearsLabel . ' years in business. Call ' . $phone . '.';
+                . '. Kitchens, baths, floors, siding, windows. ' . $yearsLabel . ' years in business. Call ' . $phone . '.';
         if (mb_strlen($fnText) > 160) $fnText = rtrim(mb_substr($fnText, 0, 157), " ,.:;") . '...';
         return $fnText;
     }

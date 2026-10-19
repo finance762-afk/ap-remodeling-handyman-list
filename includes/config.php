@@ -72,10 +72,9 @@ $services = [
     [
         'name'        => 'Additional Services',
         'slug'        => 'additional-services',
-        'description' => 'Roof repair and replacement plus handyman work: drywall, painting, doors, TV mounting, shelving, fixtures, caulking, deck and fence repair.',
-        'keywords'    => ['handyman elkhart in', 'handyman near me elkhart', 'roof repair elkhart'],
+        'description' => 'Handyman work for Elkhart-area homes: drywall, painting, doors, TV mounting, shelving, fixtures, caulking, deck and fence repair.',
+        'keywords'    => ['handyman elkhart in', 'handyman near me elkhart', 'handyman services elkhart'],
         'includes'    => [
-            'Roofing (roof repair & replacement)',
             'Handyman Services (drywall repair, interior & exterior painting, door installation & repair, TV mounting, shelving installation, furniture assembly, fixture replacement, caulking & weatherproofing, deck repair, fence repair, small home repairs)',
         ],
     ],
