@@ -107,7 +107,7 @@ $footBook     = !empty($bookingWindows['authorized']) && pageBuilt('/book/');
 
       </div>
 
-      <!-- Location: same GBP place embed as /contact/ and /service-area/. Lazy, fixed aspect-ratio box (no layout shift). -->
+      <!-- Location: same GBP place embed as /contact/ and /service-area/. Deferred via mapEmbed() + main.js, fixed aspect-ratio box (no layout shift). -->
       <section class="footer-map" aria-label="<?php echo h($siteName); ?> location">
         <div class="footer-map__text">
           <p class="footer-heading">Find Us</p>
@@ -115,7 +115,7 @@ $footBook     = !empty($bookingWindows['authorized']) && pageBuilt('/book/');
           <a class="footer-gbp" href="<?php echo h($directionsUrl); ?>" target="_blank" rel="noopener">Get directions ↗</a>
         </div>
         <div class="footer-map__frame">
-          <iframe src="<?php echo h($gbpMapEmbedSrc); ?>" title="Google map showing <?php echo h($siteName); ?> in <?php echo h($footPlace); ?>" width="800" height="300" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <?php echo mapEmbed('Google map showing ' . $siteName . ' in ' . $footPlace, [800, 300]); ?>
         </div>
       </section>
 

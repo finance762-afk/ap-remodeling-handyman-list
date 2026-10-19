@@ -186,7 +186,7 @@ endif;
       <p class="answer-block">AP Remodeling Handyman List is based in Elkhart, Indiana, and works in eleven towns across Northern Indiana and Southwest Michigan. The map shows the Elkhart area, and the service area page lists every town and what sits near each one.</p>
     </div>
     <div class="map-embed reveal-scale">
-      <iframe src="<?php echo h($gbpMapEmbedSrc); ?>" title="Map of the Elkhart, Indiana area where AP Remodeling Handyman List works" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <?php echo mapEmbed('Map of the Elkhart, Indiana area where AP Remodeling Handyman List works'); ?>
     </div>
     <p class="map-links"><a href="/service-area/">See all eleven towns we serve</a> · <a href="<?php echo h($gbpUrl); ?>" target="_blank" rel="noopener">View us on Google</a></p>
   </div>

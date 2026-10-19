@@ -185,7 +185,7 @@ $schemaMarkup = [
       <p class="answer-block">AP Remodeling Handyman List is based in Elkhart, Indiana, in the St. Joseph River valley, within a short drive of Mishawaka, South Bend, Osceola and Bristol. Warsaw, Kendallville and Plymouth are farther out, and Niles and Edwardsburg sit just across the state line in Michigan.</p>
     </div>
     <div class="map-embed reveal-scale">
-      <iframe src="<?php echo h($gbpMapEmbedSrc); ?>" title="Map of the Elkhart, Indiana area served by AP Remodeling Handyman List" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <?php echo mapEmbed('Map of the Elkhart, Indiana area served by AP Remodeling Handyman List'); ?>
     </div>
   </div>
 </section>

@@ -173,3 +173,29 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
 });
+
+/* === Deferred Google Maps embeds (.js-map-defer, rendered by mapEmbed() in functions.php) ===
+   The Maps embed pulls ~15 JS files; Chrome's lazy-iframe threshold (1250-2500px on mobile) fires it
+   during first paint. Swap data-src -> src only after window load + idle AND within 200px of the viewport. */
+(function () {
+  var maps = Array.prototype.slice.call(document.querySelectorAll('iframe.js-map-defer[data-src]'));
+  if (!maps.length) return;
+  var load = function (el) {
+    if (!el.getAttribute('data-src')) return;
+    el.src = el.getAttribute('data-src');
+    el.removeAttribute('data-src');
+  };
+  var start = function () {
+    if (!('IntersectionObserver' in window)) { maps.forEach(load); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { load(e.target); io.unobserve(e.target); } });
+    }, { rootMargin: '200px 0px' });
+    maps.forEach(function (el) { io.observe(el); });
+  };
+  var idle = function () {
+    if ('requestIdleCallback' in window) { requestIdleCallback(start, { timeout: 2000 }); }
+    else { setTimeout(start, 200); }
+  };
+  if (document.readyState === 'complete') { idle(); }
+  else { window.addEventListener('load', idle, { once: true }); }
+})();

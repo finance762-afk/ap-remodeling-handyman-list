@@ -406,3 +406,21 @@ if (!function_exists('generateMetaTags')) {
              . '<link rel="canonical" href="' . h($canonical) . '">';
     }
 }
+
+// ── Deferred Google Maps embed ──────────────────────────────
+
+if (!function_exists('mapEmbed')) {
+    /**
+     * GBP map iframe with no live src at load: main.js swaps data-src -> src only after window load
+     * AND once the frame is within 200px of the viewport (the Maps embed pulls ~15 JS files that
+     * otherwise land before FCP on mobile). <noscript> carries the real iframe for no-JS clients/crawlers.
+     * The URL is always $gbpMapEmbedSrc from config.php. $fnSize = [width, height] or [] to omit.
+     */
+    function mapEmbed(string $fnTitle, array $fnSize = []): string {
+        global $gbpMapEmbedSrc;
+        $fnDims  = $fnSize ? ' width="' . (int) $fnSize[0] . '" height="' . (int) $fnSize[1] . '"' : '';
+        $fnAttrs = ' title="' . h($fnTitle) . '"' . $fnDims . ' allowfullscreen referrerpolicy="no-referrer-when-downgrade"';
+        return '<iframe class="js-map-defer" src="about:blank" data-src="' . h($gbpMapEmbedSrc) . '"' . $fnAttrs . '></iframe>'
+             . '<noscript><iframe src="' . h($gbpMapEmbedSrc) . '"' . $fnAttrs . ' loading="lazy"></iframe></noscript>';
+    }
+}

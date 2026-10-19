@@ -189,7 +189,7 @@ $schemaMarkup = [
     <div class="section-head reveal-up">
       <span class="eyebrow">Find Your Job</span>
       <h2>Where do I find the service for my specific job?</h2>
-      <p class="answer-block">Every job AP Remodeling takes on has a home. Bathroom and kitchen remodeling sit under Remodeling Services, the handyman list (plus roof repair) sits under Additional Services, and flooring and siding each have their own page. Pick the closest match below, or call and describe the job.</p>
+      <p class="answer-block">Every job AP Remodeling takes on has a home. Bathroom and kitchen remodeling sit under Remodeling Services, the handyman list (plus roof repair) sits under Handyman Services, and flooring and siding each have their own page. Pick the closest match below, or call and describe the job.</p>
     </div>
     <div class="service-links reveal-up">
       <a class="service-link-card" href="/services/remodeling-services/#bathroom"><?php echo icon("droplets", 20); ?><span>Bathroom remodeling</span></a>

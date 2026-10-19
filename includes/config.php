@@ -70,7 +70,7 @@ $services = [
         'includes'    => ['Bathroom Remodeling', 'Kitchen Remodeling'],
     ],
     [
-        'name'        => 'Additional Services',
+        'name'        => 'Handyman Services',
         'slug'        => 'additional-services',
         'description' => 'Handyman work for Elkhart-area homes: drywall, painting, doors, TV mounting, shelving, fixtures, caulking, deck and fence repair.',
         'keywords'    => ['handyman elkhart in', 'handyman near me elkhart', 'handyman services elkhart'],
@@ -123,7 +123,7 @@ $yearsLabel      = '30+';                                  // owner-approved pub
 $yearEstablished = (int) date('Y') - $yearsInBusiness;     // 1994 as of 2026
 
 // ── Build / forms ───────────────────────────────────────────
-$cssVersion      = '4';  // SINGLE framework.css cache-bust — bump here only
+$cssVersion      = '5';  // SINGLE framework.css cache-bust — bump here only
 $formAction      = 'https://db.pageone.cloud/functions/v1/leads/ap-remodeling-handyman-list';
 $leadsFormSecret = '';   // none issued — spam shield skipped by p1-form-helpers.php
 
