@@ -6,7 +6,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'services';
 $pageType    = 'other';
 
-$pageTitle       = 'Handyman, Remodeling & Roofing Elkhart, IN | AP Remodeling Handyman List';
+$pageTitle       = 'Elkhart Handyman & Remodeling Services | AP Remodeling';
 $pageDescription = 'Handyman repairs, bathroom and kitchen remodeling, flooring, siding, windows and roofing in Elkhart, IN from AP Remodeling Handyman List. Free estimates.';
 $canonicalUrl    = $siteUrl . '/services/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
@@ -119,7 +119,7 @@ $schemaMarkup = [
             <li>TV mounts, shelving, furniture assembly</li>
             <li>Roof repair and full replacement</li>
           </ul>
-          <a href="/services/additional-services/" class="service-card__cta">Learn more</a>
+          <a href="/services/additional-services/" class="service-card__cta">See Handyman &amp; Roofing</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">
@@ -138,7 +138,7 @@ $schemaMarkup = [
             <li>Kitchen updates and full remodels</li>
             <li>Drywall and paint after tile</li>
           </ul>
-          <a href="/services/remodeling-services/" class="service-card__cta">Learn more</a>
+          <a href="/services/remodeling-services/" class="service-card__cta">See Bathroom &amp; Kitchen Remodeling</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
@@ -157,7 +157,7 @@ $schemaMarkup = [
             <li>Bedrooms and living areas</li>
             <li>Baseboard and trim finished</li>
           </ul>
-          <a href="/services/flooring-installation/" class="service-card__cta">Learn more</a>
+          <a href="/services/flooring-installation/" class="service-card__cta">See Flooring Installation</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-1 reveal-up reveal-delay-1">
@@ -176,7 +176,7 @@ $schemaMarkup = [
             <li>Window replacement and trim</li>
             <li>Caulked and weatherproofed openings</li>
           </ul>
-          <a href="/services/siding-window-replacement/" class="service-card__cta">Learn more</a>
+          <a href="/services/siding-window-replacement/" class="service-card__cta">See Siding &amp; Window Replacement</a>
         </div>
       </article>
     </div>
@@ -219,7 +219,7 @@ endif;
         <h2>How do I get an estimate from AP Remodeling Handyman List?</h2>
         <p class="answer-block">Call or send the form, then request a weekday estimate visit in a two-hour window. AP Remodeling Handyman List looks at the job in person, talks through the scope and price, and schedules nothing until you have seen both. The estimate itself is free.</p>
         <ol class="next-steps">
-          <li><strong>Tell us the job</strong>Call <?php echo h($phone); ?> or send the form with the work you need and the town the house is in.</li>
+          <li><strong>Tell us the job</strong>Call <?php echo phoneLink(); ?> or send the form with the work you need and the town the house is in.</li>
           <li><strong>Pick an estimate window</strong>Visits run Monday through Friday in two-hour windows from 8 AM to 6 PM. <a href="/contact/#book-visit">Request an estimate visit</a> online.</li>
           <li><strong>See the scope and the price</strong>The work is walked through in person before anything goes on the schedule.</li>
         </ol>
@@ -242,7 +242,7 @@ endif;
     <div class="reveal-up">
       <span class="eyebrow">Next step</span>
       <h2>Not sure which service your project falls under?</h2>
-      <p class="answer-block">AP Remodeling Handyman List can sort that out in one call. Describe the job to <?php echo h($phone); ?> or send the form, and the estimate visit will cover whatever the project turns out to include, from drywall and paint to a full bathroom.</p>
+      <p class="answer-block">AP Remodeling Handyman List can sort that out in one call. Describe the job to <?php echo phoneLink(); ?> or send the form, and the estimate visit will cover whatever the project turns out to include, from drywall and paint to a full bathroom.</p>
     </div>
     <div class="actions reveal-scale">
       <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Request an estimate</button>

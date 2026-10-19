@@ -13,8 +13,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'home';
 $pageType    = 'home';
 
-$pageTitle       = 'Handyman & Remodeling in Elkhart, IN | AP Remodeling Handyman List';
-$pageDescription = 'AP Remodeling Handyman List: handyman repairs, kitchen and bath remodeling, flooring, siding, windows and roofing in Elkhart, IN. 32 years. Free estimates.';
+$pageTitle       = 'Elkhart Handyman & Remodeling | AP Remodeling Handyman List';
+$pageDescription = 'Handyman repairs, kitchen and bath remodeling, flooring, siding, windows and roofing in Elkhart, IN from AP Remodeling Handyman List. Call for a free estimate.';
 $canonicalUrl    = $siteUrl . '/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -410,7 +410,7 @@ $proofItems = [
 <?php endforeach; ?>
           </ul>
 <?php if (pageBuilt('/services/' . $svc['slug'] . '/')): ?>
-          <a href="/services/<?php echo h($svc['slug']); ?>/" class="service-card__cta">Learn more</a>
+          <a href="/services/<?php echo h($svc['slug']); ?>/" class="service-card__cta">See <?php echo h($svc['name']); ?></a>
 <?php else: ?>
           <button type="button" class="service-card__cta" data-open-estimate>Ask about this job</button>
 <?php endif; ?>
@@ -501,7 +501,7 @@ if ($homeReviews !== ''): ?>
 <?php foreach ($faqCol as $faqIdx => $faq): ?>
         <details class="faq"<?php echo $faqIdx === 0 ? ' open' : ''; ?>>
           <summary><?php echo h($faq['q']); ?></summary>
-          <p><?php echo h($faq['a']); ?></p>
+          <p><?php echo linkContact(h($faq['a'])); ?></p>
         </details>
 <?php endforeach; ?>
       </div>
@@ -559,7 +559,7 @@ if ($homeReviews !== ''): ?>
             <legend class="form-consent-legend">Communication Consent</legend>
             <label class="form-consent-item">
               <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox">
-              <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo h($siteName); ?> about my inquiry, services, promotions, and news. I understand I can unsubscribe anytime via the link in any email or by emailing <?php echo h($email); ?>. Message frequency varies.</span>
+              <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo h($siteName); ?> about my inquiry, services, promotions, and news. I understand I can unsubscribe anytime via the link in any email or by emailing <?php echo emailLink(); ?>. Message frequency varies.</span>
             </label>
             <label class="form-consent-item">
               <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox">

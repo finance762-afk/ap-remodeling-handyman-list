@@ -6,7 +6,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'accessibility';
 $pageType    = 'other';
 
-$pageTitle       = 'Accessibility Statement | AP Remodeling Handyman List, Elkhart, IN';
+$pageTitle       = 'Accessibility Statement | AP Remodeling Handyman List';
 $pageDescription = 'AP Remodeling Handyman List in Elkhart, IN works toward WCAG 2.1 AA on its website. See the accessibility features and how to report a barrier or ask for help.';
 $canonicalUrl    = $siteUrl . '/accessibility/';
 $ogImage         = '/assets/images/og-default-v1.jpg';

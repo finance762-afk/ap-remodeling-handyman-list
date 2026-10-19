@@ -6,8 +6,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'about';
 $pageType    = 'about';
 
-$pageTitle       = 'About AP Remodeling Handyman List | Handyman & Remodeling in Elkhart, IN';
-$pageDescription = 'AP Remodeling Handyman List is a small Elkhart, IN company owned by Charles Poe: 32 years of handyman repairs and remodeling for Indiana and Michigan homes.';
+$pageTitle       = 'About AP Remodeling Handyman List | Elkhart, Indiana';
+$pageDescription = 'AP Remodeling Handyman List is a small Elkhart, IN company owned by Charles Poe: 32 years of handyman repairs and remodeling. Call for a free estimate today.';
 $canonicalUrl    = $siteUrl . '/about/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -195,7 +195,7 @@ $schemaMarkup = [
       <p class="answer-block">AP Remodeling Handyman List works from three habits. It uses one company for small fixes and big remodels, does finish work as carefully as the install, and gives a free in-person estimate before anything is scheduled. Those habits show in the job photos.</p>
     </div>
     <div class="value-cards">
-      <div class="card card-tint-1 reveal-up reveal-delay-1"><?php echo icon('wrench', 28); ?><h3>One company, small to large</h3><p>A sticking door and a full bathroom both go to the same phone number, <?php echo h($phone); ?>.</p></div>
+      <div class="card card-tint-1 reveal-up reveal-delay-1"><?php echo icon('wrench', 28); ?><h3>One company, small to large</h3><p>A sticking door and a full bathroom both go to the same phone number, <?php echo phoneLink(); ?>.</p></div>
       <div class="card card-tint-2 reveal-up reveal-delay-2"><?php echo icon('paint-bucket', 28); ?><h3>Finish work counts</h3><p>Drywall is patched and skimmed before paint, openings are masked, and baseboard goes back, as the job photos show.</p></div>
       <div class="card card-tint-3 reveal-up reveal-delay-3"><?php echo icon('clock', 28); ?><h3>Price after the visit</h3><p>Estimates are free and in person. The scope and the price are talked through before any work is scheduled.</p></div>
     </div>
@@ -236,7 +236,7 @@ $schemaMarkup = [
     <div class="reveal-up">
       <span class="eyebrow">Next step</span>
       <h2>Ready to talk through your project?</h2>
-      <p class="answer-block">AP Remodeling Handyman List is open seven days a week, 9 AM to 6 PM. Call <?php echo h($phone); ?> or send the form to start an estimate in Elkhart or the towns around it, and ask for a weekday estimate visit in a two-hour window that suits you.</p>
+      <p class="answer-block">AP Remodeling Handyman List is open seven days a week, 9 AM to 6 PM. Call <?php echo phoneLink(); ?> or send the form to start an estimate in Elkhart or the towns around it, and ask for a weekday estimate visit in a two-hour window that suits you.</p>
     </div>
     <div class="actions reveal-scale">
       <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Request an estimate</button>

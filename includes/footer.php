@@ -208,7 +208,7 @@ $footBook     = !empty($bookingWindows['authorized']) && pageBuilt('/book/');
         <legend class="form-consent-legend">Communication Consent</legend>
         <label class="form-consent-item">
           <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox">
-          <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo h($siteName); ?> about my inquiry, services, promotions, and news. I understand I can unsubscribe anytime via the link in any email or by emailing <?php echo h($email); ?>. Message frequency varies.</span>
+          <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo h($siteName); ?> about my inquiry, services, promotions, and news. I understand I can unsubscribe anytime via the link in any email or by emailing <?php echo emailLink(); ?>. Message frequency varies.</span>
         </label>
         <label class="form-consent-item">
           <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox">
@@ -226,7 +226,7 @@ $footBook     = !empty($bookingWindows['authorized']) && pageBuilt('/book/');
 </dialog>
 
 <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie notice">
-  <p class="cookie-banner__text">We use cookies to improve your experience and analyze site usage. By continuing, you agree to our use of cookies. <a href="/cookie-policy/">Learn more</a>.</p>
+  <p class="cookie-banner__text">We use cookies to improve your experience and analyze site usage. By continuing, you agree to our use of cookies. <a href="/cookie-policy/">Read the cookie policy</a>.</p>
   <button type="button" class="cookie-banner__dismiss" id="cookie-banner-dismiss" aria-label="Dismiss cookie notice">Got it</button>
 </div>
 

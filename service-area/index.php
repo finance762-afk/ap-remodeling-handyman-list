@@ -7,7 +7,7 @@ $currentPage = 'service-area';
 $pageType    = 'other';
 
 $pageTitle       = 'Service Area Near Elkhart, IN | AP Remodeling Handyman List';
-$pageDescription = 'AP Remodeling Handyman List serves Elkhart, Mishawaka, South Bend, Osceola, Bristol, Plymouth, Warsaw, Kendallville, Ligonier, Niles and Edwardsburg. Free estimates.';
+$pageDescription = 'AP Remodeling Handyman List serves Elkhart, Mishawaka, South Bend, Osceola, Bristol, Plymouth, Warsaw, Kendallville, Ligonier, Niles and Edwardsburg. Call us.';
 $canonicalUrl    = $siteUrl . '/service-area/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -94,7 +94,7 @@ $schemaMarkup = [
     <div class="section-head reveal-up">
       <span class="eyebrow">Where We Work</span>
       <h2>Which towns does <span class="text-accent">AP Remodeling Handyman List</span> serve around Elkhart?</h2>
-      <p class="answer-block">AP Remodeling Handyman List serves eleven towns: Elkhart, Mishawaka, South Bend, Osceola, Bristol, Plymouth, Warsaw, Kendallville and Ligonier in Indiana, plus Niles and Edwardsburg in Michigan. Call <?php echo h($phone); ?> to check a town that is not listed, or send the form with your town and the job.</p>
+      <p class="answer-block">AP Remodeling Handyman List serves eleven towns: Elkhart, Mishawaka, South Bend, Osceola, Bristol, Plymouth, Warsaw, Kendallville and Ligonier in Indiana, plus Niles and Edwardsburg in Michigan. Call <?php echo phoneLink(); ?> to check a town that is not listed, or send the form with your town and the job.</p>
     </div>
     <div class="area-grid">
       <article class="area-card card-tint-1 reveal-up reveal-delay-1" id="elkhart">
@@ -197,7 +197,7 @@ $schemaMarkup = [
     <div class="reveal-up">
       <span class="eyebrow">Next step</span>
       <h2>Is your town on the list?</h2>
-      <p class="answer-block">AP Remodeling Handyman List works in eleven towns across Indiana and Michigan and will tell you plainly if a job is out of range. Call <?php echo h($phone); ?> or send the form with your town, and ask for a free estimate visit on a weekday.</p>
+      <p class="answer-block">AP Remodeling Handyman List works in eleven towns across Indiana and Michigan and will tell you plainly if a job is out of range. Call <?php echo phoneLink(); ?> or send the form with your town, and ask for a free estimate visit on a weekday.</p>
     </div>
     <div class="actions reveal-scale">
       <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Request an estimate</button>

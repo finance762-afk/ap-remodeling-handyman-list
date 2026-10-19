@@ -8,7 +8,7 @@ $pageType    = 'other';
 http_response_code(404);
 $noindex = true;
 $pageTitle       = 'Page Not Found | AP Remodeling Handyman List, Elkhart, IN';
-$pageDescription = 'That page could not be found. Visit the AP Remodeling Handyman List homepage, services or contact page, or call (219) 296-5827 for a free estimate in Elkhart, IN.';
+$pageDescription = 'That page could not be found. Visit the AP Remodeling Handyman List homepage, services or contact page, or call (219) 296-5827 for a free estimate in Elkhart.';
 $canonicalUrl    = $siteUrl . '/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 

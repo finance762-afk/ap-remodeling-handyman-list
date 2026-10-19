@@ -7,7 +7,7 @@ $currentPage = 'privacy-policy';
 $pageType    = 'other';
 
 $pageTitle       = 'Privacy Policy | AP Remodeling Handyman List, Elkhart, IN';
-$pageDescription = 'How AP Remodeling Handyman List in Elkhart, IN collects, uses and protects your information, including form data, cookies, text messages and your privacy rights.';
+$pageDescription = 'How AP Remodeling Handyman List in Elkhart, IN collects, uses and protects your information, including form data, cookies, text messages and privacy rights.';
 $canonicalUrl    = $siteUrl . '/privacy-policy/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 $lastUpdated = 'October 18, 2026';
@@ -98,7 +98,7 @@ $schemaMarkup = [
     <h2>Who receives your information?</h2>
     <ul>
       <li>We do <strong>not</strong> sell personal information.</li>
-      <li><strong>Page One Insights, LLC</strong> built and hosts this website and operates the form service that receives your submission, stores it, and forwards it to us. It keeps a copy of each submission for lead tracking and consent records.</li>
+      <li><strong>Page One Insights, LLC</strong> acts as our service provider and data processor. It built and hosts this website and operates the form service that receives your submission, stores it, and forwards it to us. It keeps a copy of each submission for lead tracking and consent records, and processes your information only on our behalf.</li>
       <li><strong>Google</strong> provides Google Analytics (when enabled) and the maps shown on our Contact and Service Area pages.</li>
       <li><strong>Subcontractors and material suppliers</strong> receive only what they need to complete your job.</li>
       <li><strong>Authorities and successors:</strong> where the law requires it, or in a sale or transfer of the business.</li>

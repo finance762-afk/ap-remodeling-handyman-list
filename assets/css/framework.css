@@ -88,6 +88,7 @@
   --measure: 62ch; --content-width: 62ch;
   --nav-height: 84px; --navbar-height: 84px;
   --max-width: 1200px; --container: 1136px; --max-width-wide: 1400px; --container-wide: 1400px;
+  --container-max: var(--max-width); --bg-alt: var(--color-paper-2); --text-light: var(--color-muted); --ba-pos: 50%; /* aliases for the v8 include components (fallbacks in their own CSS) */
   --section-pad: clamp(4rem, 10vh, 8rem); --section-pad-mobile: 3rem;
   --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem;
   --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem; --space-16: 4rem;
@@ -359,7 +360,7 @@ body.menu-open .site-header { z-index: 960; } /* keep the bar (and the hamburger
 .gallery-item figcaption { position: absolute; inset: auto 0 0 0; padding: 2.2rem .9rem .8rem; background: linear-gradient(to top, rgba(0,0,0,.82), transparent); color: #fff; font-size: .86rem; line-height: 1.35; }
 .gallery-item__tag { display: inline-block; font-family: var(--font-accent); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--color-accent-bright); margin-bottom: .2rem; }
 .gallery-item__cap { display: block; }
-.gallery-hint { display: flex; align-items: center; gap: .5rem; font-size: .85rem; color: var(--color-muted); }
+.gallery-hint { display: flex; align-items: center; gap: .5rem; font-size: .85rem; color: var(--color-ink-2); }
 .sp-gallery-grid { display: grid; grid-template-columns: 1.35fr 1fr; grid-template-rows: 1fr 1fr; gap: .9rem; }
 .sp-gallery-item { margin: 0; position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 4 / 3; }
 .sp-gallery-item:first-child { grid-row: span 2; aspect-ratio: auto; }
@@ -492,6 +493,8 @@ body.menu-open .site-header { z-index: 960; } /* keep the bar (and the hamburger
 .consent a, .tcpa-consent a, .form-consent-item a { color: var(--color-primary); }
 .form-consent-fieldset { border: 0; margin: 0; padding: 0; }
 .form-consent-legend { font-size: .85rem; font-weight: 700; padding: 0; margin-bottom: .4rem; }
+.consent-label { flex: 1 1 auto; }
+.required-star { color: var(--color-danger); font-weight: 700; }
 .form-disclaimer { font-size: .78rem; color: var(--color-muted); }
 .next-steps { display: grid; gap: .9rem; margin: 1rem 0 0; padding: 0; list-style: none; counter-reset: ns; }
 /* block + absolute counter: with display:grid the bare text after <strong> became its own grid item in the 28px column (one word per line, suntec pilot 2026-09-08) */
@@ -653,3 +656,7 @@ html.js-anim .reveal-d1, html.js-anim .reveal-delay-1 { transition-delay: .08s }
 .footer-credit a { text-decoration: underline; text-underline-offset: 3px; }
 .mobile-cta-bar__estimate { background: var(--color-accent); color: #fff; } /* ink-on-accent was 3.3:1; white on accent is 4.8:1 */
 @media (max-width: 760px) { .footer-areas { grid-template-columns: 1fr 1fr; } .site-footer { padding-bottom: 1rem; } .footer-legal-row nav { gap: 0 1.25rem; } .footer-legal-row .divider { display: none; } } /* wrapped rows would leave dangling | dividers */
+
+/* === Before/after: no-JS fallback — both photos show side by side; the include's script adds .is-js for the slider === */
+.ba-slider .p1-ba__stage { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.ba-slider .p1-ba__stage img { width: 100%; height: auto; }

@@ -1,0 +1,10 @@
+# AP Remodeling Handyman List — robots.txt
+# All crawlers (including AI search crawlers) are welcome. Legal pages are indexable.
+# Domain is the preview/launch host from includes/config.php; update with the production domain at launch.
+
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /assets/js/
+
+Sitemap: https://ap-remodeling-handyman-list.pageone.cloud/sitemap.xml

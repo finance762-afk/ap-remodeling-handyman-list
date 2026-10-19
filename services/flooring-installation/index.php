@@ -14,8 +14,8 @@ $currentPage = 'services';
 $pageType    = 'service';
 $serviceSlug = 'flooring-installation';
 
-$pageTitle       = 'Flooring Installation Elkhart, IN | AP Remodeling Handyman List';
-$pageDescription = 'Flooring installation in Elkhart, IN from AP Remodeling Handyman List: tile and new floors for baths, bedrooms and living areas. Free estimates.';
+$pageTitle       = 'Flooring Installation in Elkhart, IN | AP Remodeling';
+$pageDescription = 'Flooring installation in Elkhart, IN from AP Remodeling Handyman List: tile and new floors for baths, bedrooms and living areas. Call for a free estimate today.';
 $canonicalUrl    = $siteUrl . '/services/' . $serviceSlug . '/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -281,7 +281,7 @@ $schemaMarkup = [
 <?php foreach ($faqCol as $faqIdx => $faq): ?>
         <details class="faq"<?php echo ($faqColIdx === 0 && $faqIdx === 0) ? ' open' : ''; ?>>
           <summary><?php echo h($faq['q']); ?></summary>
-          <p><?php echo h($faq['a']); ?></p>
+          <p><?php echo linkContact(h($faq['a'])); ?></p>
         </details>
 <?php endforeach; ?>
       </div>
@@ -313,7 +313,7 @@ $schemaMarkup = [
             <li>Kitchen updates and full remodels</li>
             <li>Drywall and paint after tile</li>
           </ul>
-          <a href="/services/remodeling-services/" class="service-card__cta">Learn more</a>
+          <a href="/services/remodeling-services/" class="service-card__cta">See Bathroom &amp; Kitchen Remodeling</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">
@@ -332,7 +332,7 @@ $schemaMarkup = [
             <li>TV mounts, shelving, furniture assembly</li>
             <li>Roof repair and full replacement</li>
           </ul>
-          <a href="/services/additional-services/" class="service-card__cta">Learn more</a>
+          <a href="/services/additional-services/" class="service-card__cta">See Handyman &amp; Roofing</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
@@ -351,7 +351,7 @@ $schemaMarkup = [
             <li>Window replacement and trim</li>
             <li>Caulked and weatherproofed openings</li>
           </ul>
-          <a href="/services/siding-window-replacement/" class="service-card__cta">Learn more</a>
+          <a href="/services/siding-window-replacement/" class="service-card__cta">See Siding &amp; Window Replacement</a>
         </div>
       </article>
     </div>
@@ -364,7 +364,7 @@ $schemaMarkup = [
     <div class="reveal-up">
       <span class="eyebrow">Next step</span>
       <h2>Ready to get a price on your new floor?</h2>
-      <p class="answer-block">AP Remodeling Handyman List gives free flooring estimates in Elkhart and nearby towns. Call <?php echo h($phone); ?> or send the form, and ask for a weekday estimate visit in a two-hour window that suits you. There is no charge for the estimate, and nothing is scheduled until you have seen the scope and the price.</p>
+      <p class="answer-block">AP Remodeling Handyman List gives free flooring estimates in Elkhart and nearby towns. Call <?php echo phoneLink(); ?> or send the form, and ask for a weekday estimate visit in a two-hour window that suits you. There is no charge for the estimate, and nothing is scheduled until you have seen the scope and the price.</p>
     </div>
     <div class="actions reveal-scale">
       <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Request an estimate</button>

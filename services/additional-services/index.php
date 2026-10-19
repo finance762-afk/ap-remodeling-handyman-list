@@ -14,8 +14,8 @@ $currentPage = 'services';
 $pageType    = 'service';
 $serviceSlug = 'additional-services';
 
-$pageTitle       = 'Handyman & Roofing Services Elkhart, IN | AP Remodeling Handyman List';
-$pageDescription = 'Handyman services and roof repair in Elkhart, IN from AP Remodeling Handyman List: drywall, paint, doors, TV mounting, decks, fences and roofing. Free estimates.';
+$pageTitle       = 'Handyman & Roofing Services Elkhart, IN | AP Remodeling';
+$pageDescription = 'Handyman services and roof repair in Elkhart, IN from AP Remodeling Handyman List: drywall, paint, doors, TV mounting, decks, fences. Call for a free estimate.';
 $canonicalUrl    = $siteUrl . '/services/' . $serviceSlug . '/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -326,7 +326,7 @@ endif;
         <li><?php echo icon("check-circle", 22); ?><span>Drywall, paint and caulking done by the same company</span></li>
         <li><?php echo icon("check-circle", 22); ?><span>Deck and fence repair alongside interior fixes</span></li>
         <li><?php echo icon("check-circle", 22); ?><span>Roof repair and replacement priced after an estimate visit</span></li>
-        <li><?php echo icon("check-circle", 22); ?><span>Open seven days a week, 9 AM to 6 PM, at <?php echo h($phone); ?></span></li>
+        <li><?php echo icon("check-circle", 22); ?><span>Open seven days a week, 9 AM to 6 PM, at <?php echo phoneLink(); ?></span></li>
       </ul>
     </div>
   </div>
@@ -360,7 +360,7 @@ endif;
 <?php foreach ($faqCol as $faqIdx => $faq): ?>
         <details class="faq"<?php echo ($faqColIdx === 0 && $faqIdx === 0) ? ' open' : ''; ?>>
           <summary><?php echo h($faq['q']); ?></summary>
-          <p><?php echo h($faq['a']); ?></p>
+          <p><?php echo linkContact(h($faq['a'])); ?></p>
         </details>
 <?php endforeach; ?>
       </div>
@@ -392,7 +392,7 @@ endif;
             <li>Kitchen updates and full remodels</li>
             <li>Drywall and paint after tile</li>
           </ul>
-          <a href="/services/remodeling-services/" class="service-card__cta">Learn more</a>
+          <a href="/services/remodeling-services/" class="service-card__cta">See Bathroom &amp; Kitchen Remodeling</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-2 reveal-up reveal-delay-2">
@@ -411,7 +411,7 @@ endif;
             <li>Bedrooms and living areas</li>
             <li>Baseboard and trim finished</li>
           </ul>
-          <a href="/services/flooring-installation/" class="service-card__cta">Learn more</a>
+          <a href="/services/flooring-installation/" class="service-card__cta">See Flooring Installation</a>
         </div>
       </article>
       <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
@@ -430,7 +430,7 @@ endif;
             <li>Window replacement and trim</li>
             <li>Caulked and weatherproofed openings</li>
           </ul>
-          <a href="/services/siding-window-replacement/" class="service-card__cta">Learn more</a>
+          <a href="/services/siding-window-replacement/" class="service-card__cta">See Siding &amp; Window Replacement</a>
         </div>
       </article>
     </div>
@@ -443,7 +443,7 @@ endif;
     <div class="reveal-up">
       <span class="eyebrow">Next step</span>
       <h2>Ready to get your list of jobs priced?</h2>
-      <p class="answer-block">AP Remodeling Handyman List gives estimates at no charge on handyman work and roofing in Elkhart and nearby towns. Call <?php echo h($phone); ?> or send the form, and ask for a weekday estimate visit in a two-hour window that suits you. There is no charge for the estimate, and nothing is scheduled until you have seen the scope and the price.</p>
+      <p class="answer-block">AP Remodeling Handyman List gives estimates at no charge on handyman work and roofing in Elkhart and nearby towns. Call <?php echo phoneLink(); ?> or send the form, and ask for a weekday estimate visit in a two-hour window that suits you. There is no charge for the estimate, and nothing is scheduled until you have seen the scope and the price.</p>
     </div>
     <div class="actions reveal-scale">
       <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Request an estimate</button>

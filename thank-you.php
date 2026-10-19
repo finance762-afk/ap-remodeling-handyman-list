@@ -57,7 +57,7 @@ $ogImage         = '/assets/images/og-default-v1.jpg';
       </nav>
       <span class="eyebrow">Request received</span>
       <h1 class="hero-title">Thank you, your request is in</h1>
-      <p class="hero-answer">AP Remodeling Handyman List has your estimate request and will follow up by phone or email. Next you pick a weekday estimate visit in a two-hour window. For anything urgent, call <?php echo h($phone); ?> any day between 9 AM and 6 PM.</p>
+      <p class="hero-answer">AP Remodeling Handyman List has your estimate request and will follow up by phone or email. Next you pick a weekday estimate visit in a two-hour window. For anything urgent, call <?php echo phoneLink(); ?> any day between 9 AM and 6 PM.</p>
       
     </div>
   </div>

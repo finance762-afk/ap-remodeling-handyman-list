@@ -57,6 +57,31 @@ if (!function_exists('formatPhone')) {
     }
 }
 
+if (!function_exists('phoneLink')) {
+    /** The site phone as a tel: link (use for every phone number that appears in body copy). */
+    function phoneLink(): string {
+        global $phone, $phoneRaw;
+        return '<a href="tel:' . h($phoneRaw) . '">' . h($phone) . '</a>';
+    }
+}
+
+if (!function_exists('emailLink')) {
+    /** The site email as a mailto: link. */
+    function emailLink(): string {
+        global $email;
+        return '<a href="mailto:' . h($email) . '">' . h($email) . '</a>';
+    }
+}
+
+if (!function_exists('linkContact')) {
+    /** Turns the site phone / email inside ALREADY-ESCAPED text into tel: / mailto: links (visible FAQ answers; schema keeps the plain string). */
+    function linkContact(string $escaped): string {
+        global $phone, $email;
+        $fnOut = str_replace(h($phone), phoneLink(), $escaped);
+        return str_replace(h($email), emailLink(), $fnOut);
+    }
+}
+
 if (!function_exists('slugify')) {
     function slugify(string $text): string {
         $fnSlug = strtolower(str_replace('&', ' and ', $text));
@@ -290,8 +315,14 @@ if (!function_exists('buildLocalBusinessSchema')) {
 if (!function_exists('generateServiceSchema')) {
     /** Service node for a $services entry (config.php shape). Provider points at the homepage @id — no duplicate business block. */
     function generateServiceSchema(array $service): array {
-        global $siteUrl, $address, $targetRadius;
+        global $siteUrl, $serviceAreas;
         $fnSlug = $service['slug'] ?? getServiceSlug($service['name'] ?? '');
+        $fnStates = ['IN' => 'Indiana', 'MI' => 'Michigan'];
+        $fnAreas = [];
+        foreach ((array) $serviceAreas as $fnArea) {   // same towns the page and footer list
+            [$fnCity, $fnSt] = cityFromArea($fnArea);
+            $fnAreas[] = ['@type' => 'City', 'name' => $fnCity, 'containedInPlace' => ['@type' => 'State', 'name' => $fnStates[strtoupper($fnSt)] ?? strtoupper($fnSt)]];
+        }
         return [
             '@context'    => 'https://schema.org',
             '@type'       => 'Service',
@@ -300,7 +331,7 @@ if (!function_exists('generateServiceSchema')) {
             'url'         => rtrim($siteUrl, '/') . '/services/' . $fnSlug . '/',
             'serviceType' => $service['name'] ?? '',
             'provider'    => ['@id' => rtrim($siteUrl, '/') . '/#organization'],
-            'areaServed'  => ['@type' => 'City', 'name' => $address['city']],
+            'areaServed'  => $fnAreas,
         ];
     }
 }

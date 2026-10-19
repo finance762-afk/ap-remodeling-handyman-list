@@ -122,7 +122,7 @@ $yearsInBusiness = 32;                                     // content.years
 $yearEstablished = (int) date('Y') - $yearsInBusiness;     // 1994 as of 2026
 
 // ── Build / forms ───────────────────────────────────────────
-$cssVersion      = '1';  // SINGLE framework.css cache-bust — bump here only
+$cssVersion      = '3';  // SINGLE framework.css cache-bust — bump here only
 $formAction      = 'https://db.pageone.cloud/functions/v1/leads/ap-remodeling-handyman-list';
 $leadsFormSecret = '';   // none issued — spam shield skipped by p1-form-helpers.php
 

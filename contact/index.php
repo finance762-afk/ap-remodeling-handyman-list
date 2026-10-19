@@ -6,7 +6,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'contact';
 $pageType    = 'contact';
 
-$pageTitle       = 'Contact AP Remodeling Handyman List | Elkhart, IN Handyman & Remodeling';
+$pageTitle       = 'Contact AP Remodeling Handyman List | Elkhart, Indiana';
 $pageDescription = 'Call (219) 296-5827, send the form or request a weekday estimate visit with AP Remodeling Handyman List in Elkhart, IN. Open seven days, 9 AM to 6 PM.';
 $canonicalUrl    = $siteUrl . '/contact/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
@@ -78,7 +78,7 @@ $schemaMarkup = [
       </nav>
       <span class="eyebrow">Contact · Elkhart, IN</span>
       <h1 class="hero-title">Contact AP Remodeling Handyman List in Elkhart, IN</h1>
-      <p class="hero-answer">Call <?php echo h($phone); ?>, send the form or request a weekday estimate visit. AP Remodeling answers seven days a week, 9 AM to 6 PM, and works in eleven towns across Northern Indiana and Southwest Michigan from its base in Elkhart.</p>
+      <p class="hero-answer">Call <?php echo phoneLink(); ?>, send the form or request a weekday estimate visit. AP Remodeling answers seven days a week, 9 AM to 6 PM, and works in eleven towns across Northern Indiana and Southwest Michigan from its base in Elkhart.</p>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ endif;
             <legend class="form-consent-legend">Communication Consent</legend>
             <label class="form-consent-item">
               <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox">
-              <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo h($siteName); ?> about my inquiry, services, promotions, and news. I understand I can unsubscribe anytime via the link in any email or by emailing <?php echo h($email); ?>. Message frequency varies.</span>
+              <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo h($siteName); ?> about my inquiry, services, promotions, and news. I understand I can unsubscribe anytime via the link in any email or by emailing <?php echo emailLink(); ?>. Message frequency varies.</span>
             </label>
             <label class="form-consent-item">
               <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox">
@@ -159,7 +159,7 @@ endif;
 
       <div class="contact-aside reveal-right">
         <h2>How else can I reach AP Remodeling Handyman List?</h2>
-        <p class="answer-block">AP Remodeling Handyman List is easiest to reach by phone at <?php echo h($phone); ?>, seven days a week from 9 AM to 6 PM. Email works too, and the form on this page goes to the same place. Estimate visits are scheduled Monday through Friday in two-hour windows.</p>
+        <p class="answer-block">AP Remodeling Handyman List is easiest to reach by phone at <?php echo phoneLink(); ?>, seven days a week from 9 AM to 6 PM. Email works too, and the form on this page goes to the same place. Estimate visits are scheduled Monday through Friday in two-hour windows.</p>
         <div class="nap">
           <div><?php echo icon('phone', 18); ?><a href="tel:<?php echo h($phoneRaw); ?>"><?php echo h($phone); ?></a></div>
           <div><?php echo icon('mail', 18); ?><a href="mailto:<?php echo h($email); ?>"><?php echo h($email); ?></a></div>
@@ -199,7 +199,7 @@ endif;
     <div class="reveal-up">
       <span class="eyebrow">Next step</span>
       <h2>Prefer to talk it through first?</h2>
-      <p class="answer-block">AP Remodeling Handyman List picks up the phone seven days a week from 9 AM to 6 PM. Call <?php echo h($phone); ?> to describe the job, ask whether your town is covered, and set up a free estimate visit on a weekday in a two-hour window that suits you.</p>
+      <p class="answer-block">AP Remodeling Handyman List picks up the phone seven days a week from 9 AM to 6 PM. Call <?php echo phoneLink(); ?> to describe the job, ask whether your town is covered, and set up a free estimate visit on a weekday in a two-hour window that suits you.</p>
     </div>
     <div class="actions reveal-scale">
       <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Request an estimate</button>
