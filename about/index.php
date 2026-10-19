@@ -7,7 +7,7 @@ $currentPage = 'about';
 $pageType    = 'about';
 
 $pageTitle       = 'About AP Remodeling Handyman List | Elkhart, Indiana';
-$pageDescription = 'AP Remodeling Handyman List is a small Elkhart, IN company owned by Charles Poe: 32 years of handyman repairs and remodeling. Call for a free estimate today.';
+$pageDescription = 'AP Remodeling Handyman List is a small Elkhart, IN company owned by Charles Poe: 30+ years of handyman repairs and remodeling. Call for a free estimate today.';
 $canonicalUrl    = $siteUrl . '/about/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 
@@ -117,7 +117,7 @@ $schemaMarkup = [
       </nav>
       <span class="eyebrow">About the Company</span>
       <h1 class="hero-title">About AP Remodeling Handyman List in Elkhart, Indiana</h1>
-      <p class="hero-answer">AP Remodeling Handyman List is a small Elkhart company owned by Charles Poe, in business for 32 years and open seven days a week, 9 AM to 6 PM. It works in eleven towns across Northern Indiana and Southwest Michigan.</p>
+      <p class="hero-answer">AP Remodeling Handyman List is a small Elkhart company owned by Charles Poe, in business for 30+ years and open seven days a week, 9 AM to 6 PM. It works in eleven towns across Northern Indiana and Southwest Michigan.</p>
       <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -133,7 +133,7 @@ $schemaMarkup = [
       <div class="story-copy reveal-left">
         <span class="eyebrow">Our Story</span>
         <h2>Who runs <span class="text-accent">AP Remodeling Handyman List</span> in Elkhart?</h2>
-        <p class="answer-block">AP Remodeling Handyman List is a small home repair and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 32 years. The company takes jobs from a sticking door to a tiled walk-in shower, across eleven towns in Indiana and Michigan.</p>
+        <p class="answer-block">AP Remodeling Handyman List is a small home repair and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 30+ years. The company takes jobs from a sticking door to a tiled walk-in shower, across eleven towns in Indiana and Michigan.</p>
         <p>Charles's focus is workmanship you can see once the job is done, and honoring the warranties that come with the products installed in your home. His invitation to a new customer is short: call for a free estimate.</p>
         <p>Most of the photos on this site come from bathroom and interior jobs: shower walls in marble-look tile, a hexagon mosaic floor, drywall patched beside new tile, a sloped-ceiling bedroom with new baseboard, and an arched window return ready for paint. The list also reaches outside the house, with <a href="/services/siding-window-replacement/">siding and windows</a>, roofs, decks and fences on the <a href="/services/additional-services/">handyman and roofing</a> page.</p>
       </div>
@@ -209,9 +209,9 @@ $schemaMarkup = [
       <div class="reveal-left">
         <span class="eyebrow">By the Facts</span>
         <h2>What are the facts about <span class="text-accent">AP Remodeling Handyman List</span>?</h2>
-        <p class="answer-block">AP Remodeling Handyman List is based in Elkhart, Indiana, and has been in business for 32 years. The phone is answered seven days a week from 9 AM to 6 PM, estimate visits are Monday through Friday, and the company works in eleven towns across Indiana and Michigan.</p>
+        <p class="answer-block">AP Remodeling Handyman List is based in Elkhart, Indiana, and has been in business for 30+ years. The phone is answered seven days a week from 9 AM to 6 PM, estimate visits are Monday through Friday, and the company works in eleven towns across Indiana and Michigan.</p>
         <ul class="timeline fact-timeline">
-          <li><b>32 years in business</b><p>Owned by Charles Poe and based in Elkhart, Indiana.</p></li>
+          <li><b>30+ years in business</b><p>Owned by Charles Poe and based in Elkhart, Indiana.</p></li>
           <li><b>Eleven towns, two states</b><p>Nine in Indiana and two in Michigan. See the <a href="/service-area/">service area</a> for the full list.</p></li>
           <li><b>Open seven days</b><p><?php echo h($businessHours); ?>.</p></li>
           <li><b>Weekday estimate visits</b><p>Two-hour windows from 8 AM to 6 PM, Monday through Friday. <a href="/contact/#book-visit">Request a visit</a>.</p></li>

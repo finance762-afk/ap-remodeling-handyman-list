@@ -254,7 +254,7 @@ if (!function_exists('buildLocalBusinessSchema')) {
     /** The site-wide @graph: HomeAndConstructionBusiness (#organization) + WebSite. No self-serving rating markup, ever. */
     function buildLocalBusinessSchema(string $ogImage = ''): array {
         global $siteName, $siteUrl, $phoneRaw, $email, $address, $addressPublic, $geo, $businessHours, $services,
-               $serviceAreas, $gbpUrl, $socialLinks, $yearsInBusiness;
+               $serviceAreas, $gbpUrl, $gbpCidUrl, $socialLinks, $yearsLabel;
 
         $fnAddress = ['@type' => 'PostalAddress', 'addressLocality' => $address['city'], 'addressRegion' => $address['state'], 'addressCountry' => 'US'];
         if (!empty($addressPublic) && !empty($address['street'])) $fnAddress['streetAddress'] = $address['street']; // address_public:false → never the street
@@ -282,7 +282,7 @@ if (!function_exists('buildLocalBusinessSchema')) {
             $fnHours[] = ['@type' => 'OpeningHoursSpecification', 'dayOfWeek' => $fnSpec['days'], 'opens' => $fnSpec['opens'], 'closes' => $fnSpec['closes']];
         }
 
-        $fnSameAs = array_values(array_filter(array_merge([(string) $gbpUrl], array_values((array) $socialLinks))));
+        $fnSameAs = array_values(array_filter(array_merge([(string) $gbpCidUrl, (string) $gbpUrl], array_values((array) $socialLinks))));
 
         $fnBiz = [
             '@type'       => 'HomeAndConstructionBusiness',
@@ -291,10 +291,10 @@ if (!function_exists('buildLocalBusinessSchema')) {
             'url'         => rtrim($siteUrl, '/') . '/',
             'telephone'   => $phoneRaw,
             'email'       => $email,
-            'description' => $siteName . ' is a handyman and home remodeling company in ' . $address['city'] . ', Indiana, serving homeowners across Northern Indiana and Southwest Michigan. ' . $yearsInBusiness . ' years in business. Free estimates.',
+            'description' => $siteName . ' is a handyman and home remodeling company in ' . $address['city'] . ', Indiana, serving homeowners across Northern Indiana and Southwest Michigan. ' . $yearsLabel . ' years in business. Free estimates.',
             'address'     => $fnAddress,
             'geo'         => ['@type' => 'GeoCoordinates', 'latitude' => $geo['lat'], 'longitude' => $geo['lng']],
-            'hasMap'      => $gbpUrl,
+            'hasMap'      => $gbpCidUrl,
             'areaServed'  => $fnAreas,
         ];
         if ($ogImage !== '') $fnBiz['image'] = absoluteUrl($ogImage);
@@ -380,9 +380,9 @@ if (!function_exists('jsonLd')) {
 if (!function_exists('defaultMetaDescription')) {
     /** Fallback description (pages should set $pageDescription). Uses only facts that are in build-plan.json / config.php. */
     function defaultMetaDescription(): string {
-        global $siteName, $address, $phone, $yearsInBusiness;
+        global $siteName, $address, $phone, $yearsLabel;
         $fnText = $siteName . ': ' . strtolower(keywordCore()) . ' and remodeling in ' . $address['city'] . ', ' . $address['state']
-                . '. Kitchens, baths, floors, siding, roofing. ' . $yearsInBusiness . ' years in business. Call ' . $phone . '.';
+                . '. Kitchens, baths, floors, siding, roofing. ' . $yearsLabel . ' years in business. Call ' . $phone . '.';
         if (mb_strlen($fnText) > 160) $fnText = rtrim(mb_substr($fnText, 0, 157), " ,.:;") . '...';
         return $fnText;
     }

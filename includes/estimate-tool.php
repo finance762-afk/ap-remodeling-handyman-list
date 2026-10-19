@@ -98,6 +98,7 @@ if (!function_exists('p1_estimate_tool')) {
           <div class="form-row"><label for="<?= $h($id) ?>-phone">Phone</label><input id="<?= $h($id) ?>-phone" type="tel" name="phone" autocomplete="tel" required></div>
           <div class="form-row"><label for="<?= $h($id) ?>-email">Email</label><input id="<?= $h($id) ?>-email" type="email" name="email" autocomplete="email" required></div>
           <div class="form-row"><label for="<?= $h($id) ?>-addr">Job address or city</label><input id="<?= $h($id) ?>-addr" type="text" name="job_address" autocomplete="street-address"></div>
+          <label class="consent" for="<?= $h($id) ?>-sms"><input id="<?= $h($id) ?>-sms" type="checkbox" name="sms_consent" value="yes"><span>I agree to receive calls or texts from AP Remodeling Handyman List about my request. Msg &amp; data rates may apply. Reply STOP to opt out.</span></label>
           <?= p1_consent_row($id) ?>
         </fieldset>
         <div class="p1-estimate__nav">

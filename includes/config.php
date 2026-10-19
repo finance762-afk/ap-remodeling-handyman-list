@@ -100,6 +100,7 @@ $targetRadius = 25; // miles
 // ── Social / profiles ───────────────────────────────────────
 $socialLinks = [];  // no social profiles in build-plan.json
 $gbpUrl          = 'https://share.google/rE66BvwmFRxXlJzmy';
+$gbpCidUrl       = 'https://maps.google.com/maps?cid=1428684112360374645'; // GBP CID link — schema hasMap + sameAs
 $gbpPlaceId      = 'ChIJfRx5xSR5SA8RdQF8daG00xM';
 $gbpMapEmbedSrc  = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d762243.7496723352!2d-85.83901105!3d41.730991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf487924c5791c7d%3A0x13d3b4a1757c0175!2sAP%20Remodeling%20Handyman%20List!5e0!3m2!1sen!2sus!4v1792341617899!5m2!1sen!2sus';
 $directionsUrl   = 'https://www.google.com/maps/dir/?api=1&destination=place_id:ChIJfRx5xSR5SA8RdQF8daG00xM';
@@ -118,11 +119,12 @@ $colors = [
 ];
 
 // ── Business facts ──────────────────────────────────────────
-$yearsInBusiness = 32;                                     // content.years
+$yearsInBusiness = 32;                                     // content.years (internal only — never print; use $yearsLabel)
+$yearsLabel      = '30+';                                  // owner-approved public wording: "30+ years"
 $yearEstablished = (int) date('Y') - $yearsInBusiness;     // 1994 as of 2026
 
 // ── Build / forms ───────────────────────────────────────────
-$cssVersion      = '3';  // SINGLE framework.css cache-bust — bump here only
+$cssVersion      = '4';  // SINGLE framework.css cache-bust — bump here only
 $formAction      = 'https://db.pageone.cloud/functions/v1/leads/ap-remodeling-handyman-list';
 $leadsFormSecret = '';   // none issued — spam shield skipped by p1-form-helpers.php
 

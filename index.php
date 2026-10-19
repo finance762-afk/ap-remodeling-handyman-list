@@ -260,7 +260,7 @@ $proofItems = [
       <div class="hero-text">
         <span class="eyebrow">Elkhart, IN · Northern Indiana &amp; Southwest Michigan</span>
         <h1 class="hero-title">Elkhart handyman repairs and remodels</h1>
-        <p class="hero-answer">AP Remodeling Handyman List does drywall, doors, tile baths, floors and roofs for homes in Elkhart and nearby towns. The company is owned by Charles Poe, has 32 years in business, and prices every job after a free in-person estimate visit.</p>
+        <p class="hero-answer">AP Remodeling Handyman List does drywall, doors, tile baths, floors and roofs for homes in Elkhart and nearby towns. The company is owned by Charles Poe, has 30+ years in business, and prices every job after a free in-person estimate visit.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -456,7 +456,7 @@ $proofItems = [
             <img src="/assets/images/1000002210-960.webp" srcset="/assets/images/1000002210-480.webp 480w, /assets/images/1000002210-960.webp 960w, /assets/images/1000002210-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 480px" alt="Shower corner tiled in marble-look porcelain with a long recessed niche and pebble floor" width="960" height="1280" loading="lazy" decoding="async">
           </picture>
         </div>
-        <div class="about-stat-card"><b class="tabular"><?php echo (int) $yearsInBusiness; ?> years</b><span>in business</span></div>
+        <div class="about-stat-card"><b class="tabular"><?php echo h($yearsLabel); ?> years</b><span>in business</span></div>
       </div>
 
     </div>

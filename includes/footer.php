@@ -41,9 +41,9 @@ $footBook     = !empty($bookingWindows['authorized']) && pageBuilt('/book/');
             <span class="logo-text"><span class="brand-name"><?php echo h($footTop); ?></span><span class="brand-sub"><?php echo h($footSub); ?></span></span>
 <?php endif; ?>
           </a>
-          <p><?php echo h($siteName); ?> is a handyman and home remodeling company in <?php echo h($footPlace); ?> with <?php echo (int) $yearsInBusiness; ?> years in business. Call for a free estimate.</p>
+          <p><?php echo h($siteName); ?> is a handyman and home remodeling company in <?php echo h($footPlace); ?> with <?php echo h($yearsLabel); ?> years in business. Call for a free estimate.</p>
           <div class="footer-badges">
-            <span><?php echo (int) $yearsInBusiness; ?> years in business</span>
+            <span><?php echo h($yearsLabel); ?> years in business</span>
             <span>Free estimates</span>
             <span><?php echo h($footPlace); ?></span>
           </div>
@@ -107,6 +107,18 @@ $footBook     = !empty($bookingWindows['authorized']) && pageBuilt('/book/');
 
       </div>
 
+      <!-- Location: same GBP place embed as /contact/ and /service-area/. Lazy, fixed aspect-ratio box (no layout shift). -->
+      <section class="footer-map" aria-label="<?php echo h($siteName); ?> location">
+        <div class="footer-map__text">
+          <p class="footer-heading">Find Us</p>
+          <p><?php echo h($siteName); ?> is based in <?php echo h($footPlace); ?> and works in towns across Northern Indiana and Southwest Michigan.</p>
+          <a class="footer-gbp" href="<?php echo h($directionsUrl); ?>" target="_blank" rel="noopener">Get directions ↗</a>
+        </div>
+        <div class="footer-map__frame">
+          <iframe src="<?php echo h($gbpMapEmbedSrc); ?>" title="Google map showing <?php echo h($siteName); ?> in <?php echo h($footPlace); ?>" width="800" height="300" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+
       <!-- AEO entity block: NAP + offering in plain text, mirrors the LocalBusiness schema in head.php -->
       <div class="footer-entity" itemscope itemtype="https://schema.org/HomeAndConstructionBusiness" itemid="<?php echo h(rtrim($siteUrl, '/') . '/#organization'); ?>">
         <meta itemprop="name" content="<?php echo h($siteName); ?>">
@@ -114,7 +126,7 @@ $footBook     = !empty($bookingWindows['authorized']) && pageBuilt('/book/');
         <meta itemprop="telephone" content="<?php echo h($phoneRaw); ?>">
         <p><?php echo h($siteName); ?> is a handyman and home remodeling company based in
           <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"><span itemprop="addressLocality"><?php echo h($address['city']); ?></span>, <span itemprop="addressRegion"><?php echo h($address['state']); ?></span></span>,
-          with <?php echo (int) $yearsInBusiness; ?> years in business. The company handles <?php echo h($footNameList); ?>
+          with <?php echo h($yearsLabel); ?> years in business. The company handles <?php echo h($footNameList); ?>
           for homeowners in <?php echo h(implode(', ', array_slice($footCities, 0, -1)) . ' and ' . end($footCities)); ?> and nearby communities in Northern Indiana and Southwest Michigan.
           Free estimates: <a href="tel:<?php echo h($phoneRaw); ?>"><?php echo h($phone); ?></a>.</p>
       </div>

@@ -66,6 +66,7 @@ if (!function_exists('p1_zip_check')) {
           <div class="form-row"><label for="<?= $h($id) ?>-email">Email</label><input id="<?= $h($id) ?>-email" type="email" name="email" autocomplete="email" required></div>
           <div class="form-row"><label for="<?= $h($id) ?>-service">Service</label><select id="<?= $h($id) ?>-service" name="service"><?= p1_service_options() ?></select></div>
         </div>
+        <label class="consent" for="<?= $h($id) ?>-sms"><input id="<?= $h($id) ?>-sms" type="checkbox" name="sms_consent" value="yes"><span>I agree to receive calls or texts from AP Remodeling Handyman List about my request. Msg &amp; data rates may apply. Reply STOP to opt out.</span></label>
         <?= p1_consent_row($id) ?>
         <button type="submit" class="btn btn-primary btn-block">Get my free estimate</button>
       </form>

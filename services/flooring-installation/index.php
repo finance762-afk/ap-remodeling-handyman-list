@@ -157,7 +157,7 @@ $schemaMarkup = [
       </nav>
         <span class="eyebrow">Services · Flooring</span>
         <h1 class="hero-title">Flooring installation in Elkhart, Indiana</h1>
-        <p class="hero-answer">AP Remodeling Handyman List installs new floors in baths, bedrooms and living areas around Elkhart, from tile to subfloor prep and baseboard. The Elkhart company is owned by Charles Poe, has 32 years in business, and prices every floor after a weekday estimate visit.</p>
+        <p class="hero-answer">AP Remodeling Handyman List installs new floors in baths, bedrooms and living areas around Elkhart, from tile to subfloor prep and baseboard. The Elkhart company is owned by Charles Poe, has 30+ years in business, and prices every floor after a weekday estimate visit.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -168,7 +168,7 @@ $schemaMarkup = [
         <ul class="hero-chips">
           <li><?php echo icon('check-circle', 16); ?>Free estimates</li>
           <li><?php echo icon('clock', 16); ?>Open 7 days, 9–6</li>
-          <li><?php echo icon('hammer', 16); ?>32 years in business</li>
+          <li><?php echo icon('hammer', 16); ?>30+ years in business</li>
         </ul>
       </div>
 
@@ -209,7 +209,7 @@ $schemaMarkup = [
         <span class="eyebrow">Flooring Installation</span>
         <h2>What does flooring installation with <span class="text-accent">AP Remodeling</span> include?</h2>
         <p class="answer-block">Flooring installation with AP Remodeling Handyman List covers taking the room down to the subfloor, laying the new floor, and finishing the edges with baseboard and paint. The company works in bathrooms, bedrooms, kitchens and living areas in Elkhart, Mishawaka, South Bend and the towns around them.</p>
-        <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 32 years.</p>
+        <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 30+ years.</p>
         <p>The photo beside this section shows the first half of most floor jobs: a room taken down to bare subfloor, with new white baseboard on the walls and tools set out before the floor goes in. A new floor is only as flat as what is under it, so the subfloor gets cleared and checked before anything is laid on top.</p>
         <p>Tile is the other floor in the photos. A white hexagon mosaic runs across one bathroom and into a tiled walk-in shower, set against walls that were patched and prepped for paint. Small mosaic tile needs a tight layout and even grout lines, because every irregular line shows on a floor that small.</p>
         <p>Because the same company also does drywall, painting and trim, the floor is not where the job stops. Walls get patched and painted and baseboard goes back, all under one estimate. If the floor is part of a bigger project, see <a href="/services/remodeling-services/">bathroom and kitchen remodeling</a>, or <a href="/services/additional-services/">the handyman list</a> for the smaller fixes that turn up along the way.</p>
@@ -232,7 +232,7 @@ $schemaMarkup = [
       <div class="section-head reveal-left">
         <span class="eyebrow">Why AP Remodeling</span>
         <h2>Why hire AP Remodeling Handyman List to install your floor?</h2>
-        <p class="answer-block">AP Remodeling Handyman List has been in business in Elkhart for 32 years and handles the walls, trim and paint around a new floor. That means one estimate and one phone number instead of separate tile, drywall and paint contractors, which keeps a floor job from stalling between trades.</p>
+        <p class="answer-block">AP Remodeling Handyman List has been in business in Elkhart for 30+ years and handles the walls, trim and paint around a new floor. That means one estimate and one phone number instead of separate tile, drywall and paint contractors, which keeps a floor job from stalling between trades.</p>
       </div>
       <ul class="why-list reveal-right">
         <li><?php echo icon("check-circle", 22); ?><span>Rooms taken down to bare subfloor before new flooring goes in</span></li>

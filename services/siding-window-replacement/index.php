@@ -143,7 +143,7 @@ $schemaMarkup = [
       </nav>
         <span class="eyebrow">Services · Siding &amp; Windows</span>
         <h1 class="hero-title">Siding and window replacement in Elkhart, Indiana</h1>
-        <p class="hero-answer">AP Remodeling Handyman List replaces siding and windows on Elkhart-area homes, then finishes the openings with trim, caulk and paint. The Elkhart company has 32 years in business and prices each job after an in-person estimate visit on a weekday.</p>
+        <p class="hero-answer">AP Remodeling Handyman List replaces siding and windows on Elkhart-area homes, then finishes the openings with trim, caulk and paint. The Elkhart company has 30+ years in business and prices each job after an in-person estimate visit on a weekday.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -195,7 +195,7 @@ $schemaMarkup = [
         <span class="eyebrow">Siding &amp; Windows</span>
         <h2>What does siding and window replacement with <span class="text-accent">AP Remodeling</span> cover?</h2>
         <p class="answer-block">Siding and window replacement with AP Remodeling Handyman List covers removing the old siding or window, setting the new one, and sealing and finishing the opening inside and out. The same company handles the trim, caulking and drywall around each window.</p>
-        <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 32 years.</p>
+        <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 30+ years.</p>
         <p>The photo shows the inside half of a window job: an arched window with plantation shutters, its drywall return finished smooth and masked off for paint. A window can be set correctly and still look unfinished from indoors if the return, trim and paint are left for someone else.</p>
         <p>Northern Indiana houses take lake-effect snow, freezing rain and repeated freeze-and-thaw swings, and each of those finds gaps in aging siding and window seals. Caulking and weatherproofing are already on the AP Remodeling handyman list, so sealing a new opening is part of the job, not an extra call.</p>
         <p>Siding replacement starts with a question the estimate visit answers: what is behind the old siding. What is found there sets the scope, which is why the price is set after the visit. Roofing meets siding at the eaves, so see <a href="/services/additional-services/#roofing">roof repair and replacement</a> if the two belong in one estimate.</p>

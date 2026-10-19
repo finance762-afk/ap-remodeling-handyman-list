@@ -175,7 +175,7 @@ $schemaMarkup = [
       </nav>
         <span class="eyebrow">Services · Handyman &amp; Roofing</span>
         <h1 class="hero-title">Handyman services and roofing in Elkhart, Indiana</h1>
-        <p class="hero-answer">AP Remodeling Handyman List fixes small things and big ones around Elkhart: drywall, paint, doors, mounts, fixtures, decks, fences and roofs. The company has 32 years in business and prices each job after an in-person estimate visit on a weekday.</p>
+        <p class="hero-answer">AP Remodeling Handyman List fixes small things and big ones around Elkhart: drywall, paint, doors, mounts, fixtures, decks, fences and roofs. The company has 30+ years in business and prices each job after an in-person estimate visit on a weekday.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
@@ -227,7 +227,7 @@ $schemaMarkup = [
         <span class="eyebrow">Handyman Services</span>
         <h2>Which handyman jobs does <span class="text-accent">AP Remodeling</span> take on in Elkhart?</h2>
         <p class="answer-block">AP Remodeling takes on drywall, painting, doors, TV mounts, shelving, fixtures, caulking, and deck and fence repair around Elkhart. The full handyman list is grouped below by the kind of job, so one call can list several jobs at once.</p>
-        <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 32 years.</p>
+        <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 30+ years.</p>
       </div>
       <div class="group-cards">
         <div class="card card-tint-1 reveal-up reveal-delay-1">
@@ -320,7 +320,7 @@ endif;
       <div class="section-head reveal-left">
         <span class="eyebrow">Why AP Remodeling</span>
         <h2>Why call AP Remodeling for small jobs and roofs?</h2>
-        <p class="answer-block">AP Remodeling Handyman List covers the small fixes and the roof from one phone number in Elkhart, and has been in business for 32 years. A homeowner with a sagging door, a loose rail and a ceiling stain can make one call instead of three.</p>
+        <p class="answer-block">AP Remodeling Handyman List covers the small fixes and the roof from one phone number in Elkhart, and has been in business for 30+ years. A homeowner with a sagging door, a loose rail and a ceiling stain can make one call instead of three.</p>
       </div>
       <ul class="why-list reveal-right">
         <li><?php echo icon("check-circle", 22); ?><span>Drywall, paint and caulking done by the same company</span></li>

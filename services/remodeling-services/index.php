@@ -215,7 +215,7 @@ $schemaMarkup = [
         <span class="eyebrow">Bathroom Remodeling</span>
         <h2>What does a bathroom remodel with <span class="text-accent">AP Remodeling</span> include?</h2>
         <p class="answer-block">A bathroom remodel with AP Remodeling Handyman List covers tile for the shower walls and floor, drywall repair and paint around the tile, and fixture replacement. The jobs pictured on this page include large-format marble-look porcelain, recessed niches, a pebble shower floor and a hexagon mosaic floor.</p>
-        <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 32 years.</p>
+        <p>AP Remodeling Handyman List is a handyman and remodeling company in Elkhart, Indiana, owned by Charles Poe and in business for 30+ years.</p>
         <p>The shower walls in these photos are large-format porcelain tile with a marble look, which means fewer grout lines than small tile. Recessed niches are set into the wall so shampoo and soap sit inside the shower instead of on a ledge, and one corner carries a long niche running most of the width of the tile.</p>
         <p>Tile is only the middle of a bathroom job. The wall beside the new tile has to be patched and skimmed before primer and paint, the stage the drywall photo below captures, and a shower can look finished while raw wallboard still sits next to it.</p>
         <p>The floor is part of the same job. See <a href="/services/flooring-installation/">flooring installation</a> for the hexagon mosaic floor, and the <a href="/services/additional-services/">handyman list</a> for fixture replacement and caulking once the tile is done.</p>

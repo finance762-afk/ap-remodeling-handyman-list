@@ -49,8 +49,9 @@ $hdGaLive      = $hdGa !== '' && preg_match('/^G-[A-Z0-9]{6,}$/', $hdGa) && stri
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
 
-<!-- Fonts: self-hosted (no Google Fonts CDN). Only the above-the-fold heading face is preloaded. -->
+<!-- Fonts: self-hosted (no Google Fonts CDN). Preload the two above-the-fold faces: heading (H1) and body (.hero-answer, the text LCP on interior pages). -->
 <link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Critical CSS inline; framework.css loads non-blocking -->
 <style><?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/critical.css'; ?></style>

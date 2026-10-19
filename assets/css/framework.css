@@ -31,6 +31,29 @@
   src: url('/assets/fonts/barlow-condensed.woff2') format('woff2');
 }
 
+/* Metric-matched local fallbacks (size-adjust / ascent-override computed from the woff2 vs
+   Arial/Liberation Sans) so the font-display: swap does not shift hero text. */
+@font-face {
+  font-family: 'Bricolage Grotesque Fallback';
+  font-style: normal;
+  font-weight: 400 800;
+  src: local('Arial Bold'), local('Arial-BoldMT'), local('Liberation Sans Bold'), local('Helvetica Bold');
+  size-adjust: 102%;
+  ascent-override: 91.1%;
+  descent-override: 26.5%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Figtree Fallback';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans'), local('Helvetica');
+  size-adjust: 100.4%;
+  ascent-override: 94.6%;
+  descent-override: 24.9%;
+  line-gap-override: 0%;
+}
+
 /* === Tokens === */
 :root {
   /* Brand — from logo analysis (build-plan design.colors) */
@@ -70,8 +93,8 @@
   --color-neutral-warm: var(--color-paper-2);
 
   /* Type — 3-font system */
-  --font-heading: "Bricolage Grotesque", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  --font-body: "Figtree", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-heading: "Bricolage Grotesque", "Bricolage Grotesque Fallback", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-body: "Figtree", "Figtree Fallback", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   --font-accent: "Barlow Condensed", 'Arial Narrow', 'Roboto Condensed', sans-serif;
 
   /* Fluid scale. H1 tops out ~42px desktop; pages never raise it. */
@@ -537,6 +560,12 @@ dialog.estimate-dialog::backdrop { background: rgba(0,0,0,.55); backdrop-filter:
 .footer-legal-links a, .footer-credit a { color: rgba(255,255,255,.7); text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
 .footer-legal-links a:hover, .footer-credit a:hover { color: #fff; text-decoration: underline; }
 .footer-legal-divider { opacity: .4; }
+/* Footer location strip: compact GBP map on every page; aspect-ratio box reserves space before the lazy iframe loads */
+.footer-map { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 2rem; align-items: center; margin: 2.5rem 0 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,.12); }
+.footer-map__text p { font-size: .93rem; margin: 0 0 .75rem; max-width: 40ch; }
+.footer-map__frame { position: relative; aspect-ratio: 8 / 3; border-radius: var(--radius-lg); overflow: hidden; background: var(--color-dark-alt); }
+.footer-map__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+@media (max-width: 760px) { .footer-map { grid-template-columns: 1fr; gap: 1rem; } .footer-map__frame { aspect-ratio: 4 / 3; } }
 .footer-entity, .aeo-entity { font-size: .86rem; color: rgba(255,255,255,.7); max-width: 80ch; margin: 2rem 0 0; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,.12); }
 @media (max-width: 960px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr; gap: 1.8rem; } }

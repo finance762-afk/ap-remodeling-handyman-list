@@ -79,6 +79,7 @@ if (!function_exists('p1_booking_window')) {
           <div class="form-row form-row--full"><label for="<?= $h($id) ?>-addr">Job address</label><input id="<?= $h($id) ?>-addr" type="text" name="job_address" autocomplete="street-address" required></div>
           <div class="form-row form-row--full"><label for="<?= $h($id) ?>-notes">Anything we should know? (optional)</label><textarea id="<?= $h($id) ?>-notes" name="message"></textarea></div>
         </div>
+        <label class="consent" for="<?= $h($id) ?>-sms"><input id="<?= $h($id) ?>-sms" type="checkbox" name="sms_consent" value="yes"><span>I agree to receive calls or texts from AP Remodeling Handyman List about my request. Msg &amp; data rates may apply. Reply STOP to opt out.</span></label>
         <?= p1_consent_row($id) ?>
         <button type="submit" class="btn btn-primary btn-block">Request this time</button>
         <p class="p1-booking__note">This sends a request. You will get a text or call to confirm the visit.</p>

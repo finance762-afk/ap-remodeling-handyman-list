@@ -85,7 +85,7 @@ $schemaMarkup = [
       </nav>
       <span class="eyebrow">Services · Elkhart, IN</span>
       <h1 class="hero-title">Home repair and remodeling services in Elkhart, Indiana</h1>
-      <p class="hero-answer">AP Remodeling Handyman List handles handyman repairs, bathroom and kitchen remodeling, flooring, siding, windows and roofing for Elkhart-area homes. The company is owned by Charles Poe, has 32 years in business, and works in eleven towns across Indiana and Michigan.</p>
+      <p class="hero-answer">AP Remodeling Handyman List handles handyman repairs, bathroom and kitchen remodeling, flooring, siding, windows and roofing for Elkhart-area homes. The company is owned by Charles Poe, has 30+ years in business, and works in eleven towns across Indiana and Michigan.</p>
       <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo h($phoneRaw); ?>"><?php echo icon('phone', 18); ?>or call <?php echo h($phone); ?></a>
